@@ -1,0 +1,212 @@
+0000.004 (0) Opened log file at time: Thu, 29 Jul 2021 16:45:13 +0000 on https://batdongsanbinhphat.com
+0000.009 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.6 PHP: 7.4.21 (litespeed, Linux vps28217.sdns.vn 3.10.0-1062.1.2.el7.x86_64 #1 SMP Mon Sep 30 14:19:46 UTC 2019 x86_64) MySQL: 10.1.18-MariaDB WPLANG: vi Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9M | 10M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.013 (0) Free space on disk containing Updraft's temporary directory: 3795.7 MB
+0000.019 (0) Tasks: Backup files:  (schedule: fortnightly) Backup DB: 1 (schedule: weekly)
+0000.022 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.042 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1626975359, seconds_ago=601754)
+0000.056 (0) Set semaphore last lock (d) time to 2021-07-29 16:45:13
+0000.059 (0) Semaphore lock (d) complete
+0000.075 (0) Backup run: resumption=0, nonce=48acbbaf40b5, file_nonce=48acbbaf40b5 begun at=1627577113 (0s ago), job type=backup
+0000.084 (0) Scheduling a resumption (1) after 300 seconds (1627577413) in case this run gets aborted
+0000.123 (0) This backup run is not intended for files - skipping
+0000.128 (0) Beginning creation of database dump (WordPress DB)
+0000.176 (0) Table hrm_options: Total expected rows (approximate): 426
+0000.196 (0) Table hrm_options: Rows added in this batch (start page: 0; next: finished): 435 in 0.02 seconds
+0000.201 (0) Table hrm_options: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_options.table.gz - 48.2 KB)
+0000.218 (0) Table hrm_users: Total expected rows (approximate): 2
+0000.229 (0) Table hrm_users: Rows added in this batch (start page: 0; next: finished): 4 in 0.00 seconds
+0000.233 (0) Table hrm_users: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_users.table.gz - 0.8 KB)
+0000.248 (0) Table hrm_usermeta: Total expected rows (approximate): 144
+0000.255 (0) Table hrm_usermeta: Rows added in this batch (start page: 0; next: finished): 172 in 0.00 seconds
+0000.259 (0) Table hrm_usermeta: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_usermeta.table.gz - 3.4 KB)
+0000.278 (0) Table hrm_commentmeta: Total expected rows (approximate): 0
+0000.284 (0) Table hrm_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.288 (0) Table hrm_commentmeta: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_commentmeta.table.gz - 0.4 KB)
+0000.311 (0) Table hrm_comments: Total expected rows (approximate): 0
+0000.317 (0) Table hrm_comments: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.322 (0) Table hrm_comments: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_comments.table.gz - 0.5 KB)
+0000.334 (0) Table hrm_links: Total expected rows (approximate): 0
+0000.339 (0) Table hrm_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.344 (0) Table hrm_links: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_links.table.gz - 0.4 KB)
+0000.359 (0) Table hrm_postmeta: Total expected rows (approximate): 2086
+0000.388 (0) Table hrm_postmeta: Rows added in this batch (start page: 0; next: finished): 1963 in 0.02 seconds
+0000.393 (0) Table hrm_postmeta: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_postmeta.table.gz - 21 KB)
+0000.411 (0) Table hrm_posts: Total expected rows (approximate): 322
+0000.479 (0) Table hrm_posts: Rows added in this batch (start page: 0; next: finished): 415 in 0.06 seconds
+0000.485 (0) Table hrm_posts: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_posts.table.gz - 62.9 KB)
+0000.499 (0) Table hrm_term_relationships: Total expected rows (approximate): 185
+0000.505 (0) Table hrm_term_relationships: Rows added in this batch (start page: 0; next: finished): 178 in 0.00 seconds
+0000.510 (0) Table hrm_term_relationships: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_term_relationships.table.gz - 0.8 KB)
+0000.541 (0) Table hrm_term_taxonomy: Total expected rows (approximate): 1573
+0000.569 (0) Table hrm_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 1580 in 0.02 seconds
+0000.575 (0) Table hrm_term_taxonomy: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_term_taxonomy.table.gz - 10.9 KB)
+0000.610 (0) Table hrm_termmeta: Total expected rows (approximate): 0
+0000.618 (0) Table hrm_termmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.624 (0) Table hrm_termmeta: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_termmeta.table.gz - 0.4 KB)
+0000.643 (0) Table hrm_terms: Total expected rows (approximate): 2231
+0000.664 (0) Table hrm_terms: Rows added in this batch (start page: 0; next: finished): 2238 in 0.02 seconds
+0000.675 (0) Table hrm_terms: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_terms.table.gz - 24 KB)
+0000.693 (0) Table hrm_duplicator_packages: Total expected rows (approximate): 0
+0000.706 (0) Table hrm_duplicator_packages: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.711 (0) Table hrm_duplicator_packages: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_duplicator_packages.table.gz - 0.4 KB)
+0000.727 (0) Table hrm_mb_relationships: Total expected rows (approximate): 0
+0000.733 (0) Table hrm_mb_relationships: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.738 (0) Table hrm_mb_relationships: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_mb_relationships.table.gz - 0.3 KB)
+0000.753 (0) Table hrm_nf3_action_meta: Total expected rows (approximate): 171
+0000.760 (0) Table hrm_nf3_action_meta: Rows added in this batch (start page: 0; next: finished): 171 in 0.00 seconds
+0000.765 (0) Table hrm_nf3_action_meta: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_action_meta.table.gz - 2.1 KB)
+0000.782 (0) Table hrm_nf3_actions: Total expected rows (approximate): 11
+0000.788 (0) Table hrm_nf3_actions: Rows added in this batch (start page: 0; next: finished): 11 in 0.00 seconds
+0000.793 (0) Table hrm_nf3_actions: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_actions.table.gz - 0.6 KB)
+0000.809 (0) Table hrm_nf3_chunks: Total expected rows (approximate): 0
+0000.815 (0) Table hrm_nf3_chunks: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.820 (0) Table hrm_nf3_chunks: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_chunks.table.gz - 0.3 KB)
+0000.834 (0) Table hrm_nf3_field_meta: Total expected rows (approximate): 1620
+0000.853 (0) Table hrm_nf3_field_meta: Rows added in this batch (start page: 0; next: finished): 1620 in 0.01 seconds
+0000.859 (0) Table hrm_nf3_field_meta: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_field_meta.table.gz - 10.4 KB)
+0000.876 (0) Table hrm_nf3_fields: Total expected rows (approximate): 41
+0000.884 (0) Table hrm_nf3_fields: Rows added in this batch (start page: 0; next: finished): 41 in 0.00 seconds
+0000.890 (0) Table hrm_nf3_fields: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_fields.table.gz - 1.1 KB)
+0000.906 (0) Table hrm_nf3_form_meta: Total expected rows (approximate): 161
+0000.914 (0) Table hrm_nf3_form_meta: Rows added in this batch (start page: 0; next: finished): 161 in 0.00 seconds
+0000.918 (0) Table hrm_nf3_form_meta: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_form_meta.table.gz - 2 KB)
+0000.936 (0) Table hrm_nf3_forms: Total expected rows (approximate): 5
+0000.943 (0) Table hrm_nf3_forms: Rows added in this batch (start page: 0; next: finished): 5 in 0.00 seconds
+0000.948 (0) Table hrm_nf3_forms: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_forms.table.gz - 0.6 KB)
+0000.965 (0) Table hrm_nf3_object_meta: Total expected rows (approximate): 0
+0000.972 (0) Table hrm_nf3_object_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.976 (0) Table hrm_nf3_object_meta: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_object_meta.table.gz - 0.3 KB)
+0000.992 (0) Table hrm_nf3_objects: Total expected rows (approximate): 0
+0000.999 (0) Table hrm_nf3_objects: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.003 (0) Table hrm_nf3_objects: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_objects.table.gz - 0.4 KB)
+0001.019 (0) Table hrm_nf3_relationships: Total expected rows (approximate): 0
+0001.026 (0) Table hrm_nf3_relationships: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.030 (0) Table hrm_nf3_relationships: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_relationships.table.gz - 0.4 KB)
+0001.046 (0) Table hrm_nf3_upgrades: Total expected rows (approximate): 0
+0001.052 (0) Table hrm_nf3_upgrades: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.057 (0) Table hrm_nf3_upgrades: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_upgrades.table.gz - 0.3 KB)
+0001.076 (0) Table hrm_rank_math_404_logs: Total expected rows (approximate): 0
+0001.083 (0) Table hrm_rank_math_404_logs: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.087 (0) Table hrm_rank_math_404_logs: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_404_logs.table.gz - 0.4 KB)
+0001.101 (0) Table hrm_rank_math_internal_links: Total expected rows (approximate): 15
+0001.108 (0) Table hrm_rank_math_internal_links: Rows added in this batch (start page: 0; next: finished): 16 in 0.00 seconds
+0001.114 (0) Table hrm_rank_math_internal_links: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_internal_links.table.gz - 0.6 KB)
+0001.126 (0) Table hrm_rank_math_internal_meta: Total expected rows (approximate): 59
+0001.133 (0) Table hrm_rank_math_internal_meta: Rows added in this batch (start page: 0; next: finished): 60 in 0.00 seconds
+0001.137 (0) Table hrm_rank_math_internal_meta: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_internal_meta.table.gz - 0.5 KB)
+0001.151 (0) Table hrm_rank_math_redirections: Total expected rows (approximate): 0
+0001.157 (0) Table hrm_rank_math_redirections: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.161 (0) Table hrm_rank_math_redirections: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_redirections.table.gz - 0.4 KB)
+0001.176 (0) Table hrm_rank_math_redirections_cache: Total expected rows (approximate): 0
+0001.181 (0) Table hrm_rank_math_redirections_cache: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.184 (0) Table hrm_rank_math_redirections_cache: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_redirections_cache.table.gz - 0.4 KB)
+0001.198 (0) Table hrm_rank_math_sc_analytics: Total expected rows (approximate): 0
+0001.203 (0) Table hrm_rank_math_sc_analytics: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.207 (0) Table hrm_rank_math_sc_analytics: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_sc_analytics.table.gz - 0.4 KB)
+0001.226 (0) Table hrm_social_users: Total expected rows (approximate): 0
+0001.231 (0) Table hrm_social_users: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.234 (0) Table hrm_social_users: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_social_users.table.gz - 0.3 KB)
+0001.247 (0) Table hrm_wpfm_backup: Total expected rows (approximate): 0
+0001.253 (0) Table hrm_wpfm_backup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.256 (0) Table hrm_wpfm_backup: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_wpfm_backup.table.gz - 0.3 KB)
+0001.269 (0) Table hrm_yoast_indexable: Total expected rows (approximate): 2
+0001.275 (0) Table hrm_yoast_indexable: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0001.280 (0) Table hrm_yoast_indexable: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_indexable.table.gz - 1.2 KB)
+0001.296 (0) Table hrm_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0001.301 (0) Table hrm_yoast_indexable_hierarchy: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.305 (0) Table hrm_yoast_indexable_hierarchy: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_indexable_hierarchy.table.gz - 0.3 KB)
+0001.319 (0) Table hrm_yoast_migrations: Total expected rows (approximate): 14
+0001.326 (0) Table hrm_yoast_migrations: Rows added in this batch (start page: 0; next: finished): 14 in 0.00 seconds
+0001.330 (0) Table hrm_yoast_migrations: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_migrations.table.gz - 0.5 KB)
+0001.343 (0) Table hrm_yoast_primary_term: Total expected rows (approximate): 0
+0001.348 (0) Table hrm_yoast_primary_term: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.351 (0) Table hrm_yoast_primary_term: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_primary_term.table.gz - 0.4 KB)
+0001.363 (0) Table hrm_yoast_seo_links: Total expected rows (approximate): 0
+0001.367 (0) Table hrm_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.370 (0) Table hrm_yoast_seo_links: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_seo_links.table.gz - 0.4 KB)
+0001.384 (0) Table hrm_yoast_seo_meta: Total expected rows (approximate): 0
+0001.389 (0) Table hrm_yoast_seo_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0001.392 (0) Table hrm_yoast_seo_meta: finishing file (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_seo_meta.table.gz - 0.3 KB)
+0001.404 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_options.table.gz (1/39): adding to final database dump
+0001.417 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_users.table.gz (2/39): adding to final database dump
+0001.421 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_usermeta.table.gz (3/39): adding to final database dump
+0001.425 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_commentmeta.table.gz (4/39): adding to final database dump
+0001.435 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_comments.table.gz (5/39): adding to final database dump
+0001.438 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_links.table.gz (6/39): adding to final database dump
+0001.441 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_postmeta.table.gz (7/39): adding to final database dump
+0001.450 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_posts.table.gz (8/39): adding to final database dump
+0001.472 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_term_relationships.table.gz (9/39): adding to final database dump
+0001.477 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_term_taxonomy.table.gz (10/39): adding to final database dump
+0001.483 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_termmeta.table.gz (11/39): adding to final database dump
+0001.487 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_terms.table.gz (12/39): adding to final database dump
+0001.496 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_duplicator_packages.table.gz (13/39): adding to final database dump
+0001.500 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_mb_relationships.table.gz (14/39): adding to final database dump
+0001.503 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_action_meta.table.gz (15/39): adding to final database dump
+0001.507 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_actions.table.gz (16/39): adding to final database dump
+0001.511 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_chunks.table.gz (17/39): adding to final database dump
+0001.514 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_field_meta.table.gz (18/39): adding to final database dump
+0001.520 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_fields.table.gz (19/39): adding to final database dump
+0001.524 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_form_meta.table.gz (20/39): adding to final database dump
+0001.528 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_forms.table.gz (21/39): adding to final database dump
+0001.532 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_object_meta.table.gz (22/39): adding to final database dump
+0001.535 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_objects.table.gz (23/39): adding to final database dump
+0001.538 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_relationships.table.gz (24/39): adding to final database dump
+0001.543 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_nf3_upgrades.table.gz (25/39): adding to final database dump
+0001.546 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_404_logs.table.gz (26/39): adding to final database dump
+0001.550 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_internal_links.table.gz (27/39): adding to final database dump
+0001.553 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_internal_meta.table.gz (28/39): adding to final database dump
+0001.557 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_redirections.table.gz (29/39): adding to final database dump
+0001.560 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_redirections_cache.table.gz (30/39): adding to final database dump
+0001.564 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_rank_math_sc_analytics.table.gz (31/39): adding to final database dump
+0001.567 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_social_users.table.gz (32/39): adding to final database dump
+0001.571 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_wpfm_backup.table.gz (33/39): adding to final database dump
+0001.574 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_indexable.table.gz (34/39): adding to final database dump
+0001.579 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_indexable_hierarchy.table.gz (35/39): adding to final database dump
+0001.582 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_migrations.table.gz (36/39): adding to final database dump
+0001.585 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_primary_term.table.gz (37/39): adding to final database dump
+0001.589 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_seo_links.table.gz (38/39): adding to final database dump
+0001.592 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db-table-hrm_yoast_seo_meta.table.gz (39/39): adding to final database dump
+0001.604 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db.gz: finished writing out complete database file (176 KB)
+0001.634 (0) Total database tables backed up: 39 (backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db.gz, size: 196302, sha1: d43f88df4f1585ea47e280c0b459106f2593f0f8, sha256: d7d2a921315eef6ea70254ff8442d3c407ee8f29d55a5e76a7ad19df95e3e4a0)
+0001.652 (0) backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.655 (0) Saving backup history. Total backup size: 191.7 KB
+0001.686 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.697 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0001.700 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6b2c46363911a0ce856e4b57988cc9f8)
+0006.414 (0) Google Drive: quota usage: used=4291.1 MB, total=15360 MB, available=11068.9 MB
+0006.419 (0) Google Drive: backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db.gz: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0009.461 (0) Googledrive chunked upload: 100 % uploaded
+0009.471 (0) Google Drive: OK: Archive backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db.gz uploaded in 3.05 seconds
+0009.474 (0) Recording as successfully uploaded: backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db.gz
+0009.481 (0) Deleting local file: backup_2021-07-29-2345_Bt_ng_sn_Hi_Phng_48acbbaf40b5-db.gz: OK
+0009.493 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0009.498 (0) Number of backup sets in history: 5; groups (db): 1
+0009.502 (0) Examining (for databases) backup set with group_id=0, nonce=48acbbaf40b5, datestamp=1627577113 (Jul 29 2021 16:45:13)
+0009.507 (0) This backup set is the backup set just made, so will not be deleted.
+0009.507 (0) Examining (for databases) backup set with group_id=0, nonce=24dabe6732ab, datestamp=1626975359 (Jul 22 2021 17:35:59)
+0009.507 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.511 (0) Examining (for databases) backup set with group_id=0, nonce=9189156795b3, datestamp=1626973733 (Jul 22 2021 17:08:53)
+0009.511 (0) 1626973733: db: this set includes a database (backup_2021-07-23-0008_Bt_ng_sn_Hi_Phng_9189156795b3-db.gz); db count is now 2
+0009.511 (0) 1626973733: db: over retain limit (2); will delete this database
+0009.511 (0) Delete file: backup_2021-07-23-0008_Bt_ng_sn_Hi_Phng_9189156795b3-db.gz, service=googledrive
+0011.469 (0) Google Drive: backup_2021-07-23-0008_Bt_ng_sn_Hi_Phng_9189156795b3-db.gz: Deletion successful
+0011.480 (0) This backup set is now empty; will remove from history
+0011.484 (0) Deleting log file (log.9189156795b3.txt)
+0011.489 (0) Examining (for databases) backup set with group_id=0, nonce=b7fbf2d11bda, datestamp=1626973673 (Jul 22 2021 17:07:53)
+0011.489 (0) Examining (for databases) backup set with group_id=0, nonce=fecca0734fa5, datestamp=1625765094 (Jul 08 2021 17:24:54)
+0011.489 (0) Number of backup sets in history: 4; groups (files): 1
+0011.495 (0) Examining (for files) backup set with nonce=48acbbaf40b5, datestamp=1627577113 (Jul 29 2021 16:45:13)
+0011.495 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.500 (0) Examining (for files) backup set with nonce=24dabe6732ab, datestamp=1626975359 (Jul 22 2021 17:35:59)
+0011.500 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.500 (0) Examining (for files) backup set with nonce=b7fbf2d11bda, datestamp=1626973673 (Jul 22 2021 17:07:53)
+0011.500 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0011.504 (0) Examining (for files) backup set with nonce=fecca0734fa5, datestamp=1625765094 (Jul 08 2021 17:24:54)
+0011.504 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0011.505 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0011.523 (0) Resume backup (48acbbaf40b5, 0): finish run
+0011.537 (0) Decremented the semaphore (d) by 1
+0011.547 (0) Semaphore (d) unlocked
+0011.555 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0011.574 (0) No email will/can be sent - the user has not configured an email address.
+0011.578 (0) The backup apparently succeeded and is now complete

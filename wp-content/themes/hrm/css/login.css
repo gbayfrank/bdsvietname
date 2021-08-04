@@ -1,0 +1,73 @@
+body.login #login h1 a {
+    width: 320px;
+    min-height: 80px;
+    padding-bottom: 10px;
+    background-size: contain;
+    margin-bottom: 5px;
+    height: auto;
+}
+body.login {
+    position: relative;
+    background: #0000007a;
+}
+/*body.login:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #444;
+}*/
+.login form {
+	margin-top: 0px;
+}
+body.login #login h1 a {
+	margin-bottom: 0px;
+}
+
+.login #backtoblog,
+.login #nav {
+    float: left;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    width: 50%;
+}
+
+#login {
+    margin: 0px auto;
+    padding: 0px;
+}
+body.login {
+    padding-top: 8%;
+}
+.login input[type=text],
+.login input[type=password],
+.login input[type=email] {
+    border: 1px solid #1d1b1b8c;
+    color: #fff;
+    margin: 5px 6px 16px 0;
+}
+.login input[type=text]:focus,
+.login input[type=password]:focus,
+.login input[type=email]:focus {
+    border-color: #5b9dd9;
+    box-shadow: 0 0 2px rgba(30,140,190,.8);
+}
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+    background: #0e0e0eb3;
+}
+.login form {
+    background: #08080885;
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+.login label {
+    color: #ffffff;
+    font-weight: 600;
+}
+.login #backtoblog a, .login #nav a {
+    color: #ffffff;
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+.opacity(@opacity) {
+	opacity: @opacity;
+	// IE8 filter
+	@opacity-ie: (@opacity * 100);
+	filter: ~"alpha(opacity=@{opacity-ie})";
+}
+.border-radius(@angle) {
+	-webkit-border-radius: @angle;
+	-moz-border-radius: @angle;
+	-o-border-radius: @angle;
+	border-radius: @angle;
+}
+.text-shadow(@args) {
+	-webkit-text-shadow: @args;
+	-moz-text-shadow: @args;
+	-o-text-shadow: @args;
+	text-shadow: @args;
+}
+.box-shadow(@args) {
+	-webkit-box-shadow: @args;
+	-moz-box-shadow: @args;
+	-o-box-shadow: @args;
+	box-shadow: @args;
+}
+.transition(@transition) {
+	-webkit-transition: @transition;
+	-o-transition: @transition;
+	transition: @transition;
+}
+.transform( @args ) {
+	-webkit-transform: @args;
+	-moz-transform: @args;
+	transform: @args;
+}
+
+@light: #fff;
+@primary-color: #cc0332;//#00933f;
+@body-bg: @light;
+@brand-primary: #f51227;
+@title-color: #333333;
+@text-color: #333333;
+@link-color: #292A32;
+@link-hover: #f51227;
+@widget-link-color: darken(@text-color, 10%);
+@desc-color: #747474;
+@border-color: #cdcdcd;
+@red: #e60808;
+
+@font-family-base: 'Open Sans', sans-serif;

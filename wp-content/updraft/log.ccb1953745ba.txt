@@ -1,0 +1,308 @@
+0000.002 (0) Opened log file at time: Mon, 26 Jul 2021 13:27:45 +0000 on http://bdsanviet.com
+0000.029 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.7 PHP: 7.4.8 (apache2handler, Windows NT ADMIN 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.13-MariaDB (max packet size=1048576) WPLANG: vi Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.8 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 49.3M | 16M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.036 (0) Free space on disk containing Updraft's temporary directory: 19428.8 MB
+0000.058 (0) Tasks: Backup files:  (schedule: fortnightly) Backup DB: 1 (schedule: weekly)
+0000.100 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.137 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1625158395, seconds_ago=2147670)
+0000.165 (0) Set semaphore last lock (d) time to 2021-07-26 13:27:45
+0000.167 (0) Semaphore lock (d) complete
+0000.173 (0) Backup run: resumption=0, nonce=ccb1953745ba, file_nonce=ccb1953745ba begun at=1627306065 (0s ago), job type=backup
+0000.178 (0) Scheduling a resumption (1) after 300 seconds (1627306365) in case this run gets aborted
+0000.199 (0) This backup run is not intended for files - skipping
+0000.202 (0) Beginning creation of database dump (WordPress DB)
+0000.205 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.228 (0) Table wp_options: Total expected rows (approximate): 484
+0000.294 (0) Table wp_options: Rows added in this batch (next record: 19515): 496 (uncompressed bytes in this segment=751792) in 0.06 seconds
+0000.308 (0) Table wp_options: finishing file(s) (2, 92 KB)
+0000.319 (0) Table wp_users: Total expected rows (approximate): 5
+0000.329 (0) Table wp_users: Rows added in this batch (next record: 31): 5 (uncompressed bytes in this segment=1894) in 0.01 seconds
+0000.339 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0000.346 (0) Table wp_usermeta: Total expected rows (approximate): 260
+0000.367 (0) Table wp_usermeta: Rows added in this batch (next record: 598): 260 (uncompressed bytes in this segment=19257) in 0.02 seconds
+0000.381 (0) Table wp_usermeta: finishing file(s) (2, 4.5 KB)
+0000.388 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.398 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.01 seconds
+0000.407 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.415 (0) Table wp_comments: Total expected rows (approximate): 0
+0000.427 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1661) in 0.01 seconds
+0000.436 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0000.443 (0) Table wp_links: Total expected rows (approximate): 0
+0000.451 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0000.473 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0000.481 (0) Table wp_postmeta: Total expected rows (approximate): 3414
+0000.684 (0) Table wp_postmeta: Rows added in this batch (next record: 6708): 3543 (uncompressed bytes in this segment=296244) in 0.20 seconds
+0000.699 (0) Table wp_postmeta: finishing file(s) (2, 35.7 KB)
+0000.705 (0) Table wp_posts: Total expected rows (approximate): 456
+0000.873 (0) Table wp_posts: Rows added in this batch (next record: 1327): 493 (uncompressed bytes in this segment=1204062) in 0.16 seconds
+0000.883 (0) Table wp_posts: finishing file(s) (2, 68.1 KB)
+0000.888 (0) Table wp_term_relationships: Total expected rows (approximate): 234
+0000.905 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 234 (uncompressed bytes in this segment=4527) in 0.01 seconds
+0000.914 (0) Table wp_term_relationships: finishing file(s) (2, 1 KB)
+0000.920 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1580
+0000.982 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2338): 1580 (uncompressed bytes in this segment=67252) in 0.06 seconds
+0000.995 (0) Table wp_term_taxonomy: finishing file(s) (2, 10.9 KB)
+0001.001 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0001.013 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0001.077 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0001.086 (0) Table wp_terms: Total expected rows (approximate): 2238
+0001.144 (0) Table wp_terms: Rows added in this batch (next record: 2338): 2238 (uncompressed bytes in this segment=115836) in 0.06 seconds
+0001.154 (0) Table wp_terms: finishing file(s) (2, 24.1 KB)
+0001.162 (0) Table wp_wpum_fieldmeta: Total expected rows (approximate): 35
+0001.177 (0) Table wp_wpum_fieldmeta: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=1977) in 0.01 seconds
+0001.189 (0) Table wp_wpum_fieldmeta: finishing file(s) (2, 0.7 KB)
+0001.196 (0) Table wp_wpum_fields: Total expected rows (approximate): 11
+0001.211 (0) Table wp_wpum_fields: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1372) in 0.01 seconds
+0001.223 (0) Table wp_wpum_fields: finishing file(s) (2, 0.6 KB)
+0001.233 (0) Table wp_wpum_fieldsgroups: Total expected rows (approximate): 1
+0001.252 (0) Table wp_wpum_fieldsgroups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=843) in 0.02 seconds
+0001.263 (0) Table wp_wpum_fieldsgroups: finishing file(s) (2, 0.4 KB)
+0001.269 (0) Table wp_wpum_registration_formmeta: Total expected rows (approximate): 3
+0001.281 (0) Table wp_wpum_registration_formmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=988) in 0.01 seconds
+0001.296 (0) Table wp_wpum_registration_formmeta: finishing file(s) (2, 0.5 KB)
+0001.305 (0) Table wp_wpum_registration_forms: Total expected rows (approximate): 1
+0001.318 (0) Table wp_wpum_registration_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=658) in 0.01 seconds
+0001.327 (0) Table wp_wpum_registration_forms: finishing file(s) (2, 0.4 KB)
+0001.333 (0) Table wp_wpum_search_fields: Total expected rows (approximate): 2
+0001.342 (0) Table wp_wpum_search_fields: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=631) in 0.01 seconds
+0001.351 (0) Table wp_wpum_search_fields: finishing file(s) (2, 0.4 KB)
+0001.360 (0) Table wp_duplicator_packages: Total expected rows (approximate): 0
+0001.370 (0) Table wp_duplicator_packages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=675) in 0.01 seconds
+0001.380 (0) Table wp_duplicator_packages: finishing file(s) (2, 0.4 KB)
+0001.388 (0) Table wp_mb_relationships: Total expected rows (approximate): 0
+0001.395 (0) Table wp_mb_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=656) in 0.01 seconds
+0001.403 (0) Table wp_mb_relationships: finishing file(s) (2, 0.4 KB)
+0001.409 (0) Table wp_nf3_action_meta: Total expected rows (approximate): 171
+0001.423 (0) Table wp_nf3_action_meta: Rows added in this batch (next record: 171): 171 (uncompressed bytes in this segment=8177) in 0.01 seconds
+0001.434 (0) Table wp_nf3_action_meta: finishing file(s) (2, 2.1 KB)
+0001.440 (0) Table wp_nf3_actions: Total expected rows (approximate): 11
+0001.453 (0) Table wp_nf3_actions: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1704) in 0.01 seconds
+0001.462 (0) Table wp_nf3_actions: finishing file(s) (2, 0.6 KB)
+0001.469 (0) Table wp_nf3_chunks: Total expected rows (approximate): 0
+0001.478 (0) Table wp_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=444) in 0.01 seconds
+0001.487 (0) Table wp_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0001.494 (0) Table wp_nf3_field_meta: Total expected rows (approximate): 1620
+0001.524 (0) Table wp_nf3_field_meta: Rows added in this batch (next record: 1620): 1620 (uncompressed bytes in this segment=57371) in 0.03 seconds
+0001.535 (0) Table wp_nf3_field_meta: finishing file(s) (2, 10.4 KB)
+0001.540 (0) Table wp_nf3_fields: Total expected rows (approximate): 41
+0001.554 (0) Table wp_nf3_fields: Rows added in this batch (next record: 41): 41 (uncompressed bytes in this segment=4658) in 0.01 seconds
+0001.563 (0) Table wp_nf3_fields: finishing file(s) (2, 1.1 KB)
+0001.569 (0) Table wp_nf3_form_meta: Total expected rows (approximate): 161
+0001.585 (0) Table wp_nf3_form_meta: Rows added in this batch (next record: 161): 161 (uncompressed bytes in this segment=9739) in 0.01 seconds
+0001.595 (0) Table wp_nf3_form_meta: finishing file(s) (2, 2 KB)
+0001.601 (0) Table wp_nf3_forms: Total expected rows (approximate): 5
+0001.615 (0) Table wp_nf3_forms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1708) in 0.01 seconds
+0001.624 (0) Table wp_nf3_forms: finishing file(s) (2, 0.7 KB)
+0001.632 (0) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+0001.643 (0) Table wp_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=578) in 0.01 seconds
+0001.652 (0) Table wp_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0001.658 (0) Table wp_nf3_objects: Total expected rows (approximate): 0
+0001.670 (0) Table wp_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0001.680 (0) Table wp_nf3_objects: finishing file(s) (2, 0.4 KB)
+0001.687 (0) Table wp_nf3_relationships: Total expected rows (approximate): 0
+0001.696 (0) Table wp_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.01 seconds
+0001.705 (0) Table wp_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0001.712 (0) Table wp_nf3_upgrades: Total expected rows (approximate): 0
+0001.720 (0) Table wp_nf3_upgrades: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=439) in 0.01 seconds
+0001.731 (0) Table wp_nf3_upgrades: finishing file(s) (2, 0.3 KB)
+0001.738 (0) Table wp_rank_math_404_logs: Total expected rows (approximate): 0
+0001.746 (0) Table wp_rank_math_404_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=879) in 0.01 seconds
+0001.754 (0) Table wp_rank_math_404_logs: finishing file(s) (2, 0.4 KB)
+0001.761 (0) Table wp_rank_math_internal_links: Total expected rows (approximate): 23
+0001.769 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 24): 23 (uncompressed bytes in this segment=2512) in 0.01 seconds
+0001.777 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 0.8 KB)
+0001.783 (0) Table wp_rank_math_internal_meta: Total expected rows (approximate): 80
+0001.795 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 1312): 80 (uncompressed bytes in this segment=2069) in 0.01 seconds
+0001.803 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.6 KB)
+0001.812 (0) Table wp_rank_math_redirections: Total expected rows (approximate): 0
+0001.825 (0) Table wp_rank_math_redirections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=993) in 0.01 seconds
+0001.839 (0) Table wp_rank_math_redirections: finishing file(s) (2, 0.5 KB)
+0001.847 (0) Table wp_rank_math_redirections_cache: Total expected rows (approximate): 0
+0001.854 (0) Table wp_rank_math_redirections_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=863) in 0.01 seconds
+0001.863 (0) Table wp_rank_math_redirections_cache: finishing file(s) (2, 0.4 KB)
+0001.870 (0) Table wp_rank_math_sc_analytics: Total expected rows (approximate): 0
+0001.877 (0) Table wp_rank_math_sc_analytics: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=792) in 0.01 seconds
+0001.887 (0) Table wp_rank_math_sc_analytics: finishing file(s) (2, 0.4 KB)
+0001.895 (0) Table wp_sgpb_subscribers: Total expected rows (approximate): 0
+0001.902 (0) Table wp_sgpb_subscribers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=668) in 0.01 seconds
+0001.910 (0) Table wp_sgpb_subscribers: finishing file(s) (2, 0.4 KB)
+0001.920 (0) Table wp_sgpb_subscription_error_log: Total expected rows (approximate): 0
+0001.930 (0) Table wp_sgpb_subscription_error_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0001.938 (0) Table wp_sgpb_subscription_error_log: finishing file(s) (2, 0.3 KB)
+0001.947 (0) Table wp_social_users: Total expected rows (approximate): 0
+0001.954 (0) Table wp_social_users: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0001.962 (0) Table wp_social_users: finishing file(s) (2, 0.4 KB)
+0001.969 (0) Table wp_wpfm_backup: Total expected rows (approximate): 0
+0001.977 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=528) in 0.01 seconds
+0001.986 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0001.993 (0) Table wp_yoast_indexable: Total expected rows (approximate): 2
+0002.004 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=4452) in 0.01 seconds
+0002.015 (0) Table wp_yoast_indexable: finishing file(s) (2, 1.2 KB)
+0002.022 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0002.029 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=714) in 0.01 seconds
+0002.038 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.3 KB)
+0002.045 (0) Table wp_yoast_migrations: Total expected rows (approximate): 14
+0002.053 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=967) in 0.01 seconds
+0002.061 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.5 KB)
+0002.069 (0) Table wp_yoast_primary_term: Total expected rows (approximate): 0
+0002.078 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=856) in 0.01 seconds
+0002.117 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0002.125 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0002.133 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.01 seconds
+0002.143 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0002.151 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 0
+0002.171 (0) Table wp_yoast_seo_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=554) in 0.02 seconds
+0002.181 (0) Table wp_yoast_seo_meta: finishing file(s) (2, 0.3 KB)
+0002.185 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_options.table.tmpr19516.gz (1/47/fopen): adding to final database dump
+0002.197 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_options.table.gz (2/47/fopen): adding to final database dump
+0002.199 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_users.table.tmpr32.gz (3/47/fopen): adding to final database dump
+0002.220 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_users.table.gz (4/47/fopen): adding to final database dump
+0002.224 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_usermeta.table.tmpr599.gz (5/47/fopen): adding to final database dump
+0002.227 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_usermeta.table.gz (6/47/fopen): adding to final database dump
+0002.229 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_commentmeta.table.tmpr0.gz (7/47/fopen): adding to final database dump
+0002.231 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_commentmeta.table.gz (8/47/fopen): adding to final database dump
+0002.233 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_comments.table.tmpr0.gz (9/47/fopen): adding to final database dump
+0002.235 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_comments.table.gz (10/47/fopen): adding to final database dump
+0002.238 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_links.table.tmpr0.gz (11/47/fopen): adding to final database dump
+0002.240 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_links.table.gz (12/47/fopen): adding to final database dump
+0002.243 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_postmeta.table.tmpr6709.gz (13/47/fopen): adding to final database dump
+0002.247 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_postmeta.table.gz (14/47/fopen): adding to final database dump
+0002.249 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_posts.table.tmpr1328.gz (15/47/fopen): adding to final database dump
+0002.254 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_posts.table.gz (16/47/fopen): adding to final database dump
+0002.257 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_term_relationships.table.tmpr100001.gz (17/47/fopen): adding to final database dump
+0002.259 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_term_relationships.table.gz (18/47/fopen): adding to final database dump
+0002.262 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_term_taxonomy.table.tmpr2339.gz (19/47/fopen): adding to final database dump
+0002.264 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_term_taxonomy.table.gz (20/47/fopen): adding to final database dump
+0002.266 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_termmeta.table.tmpr0.gz (21/47/fopen): adding to final database dump
+0002.269 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_termmeta.table.gz (22/47/fopen): adding to final database dump
+0002.271 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_terms.table.tmpr2339.gz (23/47/fopen): adding to final database dump
+0002.275 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_terms.table.gz (24/47/fopen): adding to final database dump
+0002.277 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_fieldmeta.table.tmpr36.gz (25/47/fopen): adding to final database dump
+0002.279 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_fieldmeta.table.gz (26/47/fopen): adding to final database dump
+0002.281 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_fields.table.tmpr12.gz (27/47/fopen): adding to final database dump
+0002.284 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_fields.table.gz (28/47/fopen): adding to final database dump
+0002.286 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_fieldsgroups.table.tmpr2.gz (29/47/fopen): adding to final database dump
+0002.289 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_fieldsgroups.table.gz (30/47/fopen): adding to final database dump
+0002.293 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_registration_formmeta.table.tmpr4.gz (31/47/fopen): adding to final database dump
+0002.297 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_registration_formmeta.table.gz (32/47/fopen): adding to final database dump
+0002.299 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_registration_forms.table.tmpr2.gz (33/47/fopen): adding to final database dump
+0002.301 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_registration_forms.table.gz (34/47/fopen): adding to final database dump
+0002.304 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_search_fields.table.tmpr3.gz (35/47/fopen): adding to final database dump
+0002.306 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpum_search_fields.table.gz (36/47/fopen): adding to final database dump
+0002.308 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_duplicator_packages.table.tmpr0.gz (37/47/fopen): adding to final database dump
+0002.312 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_duplicator_packages.table.gz (38/47/fopen): adding to final database dump
+0002.315 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_mb_relationships.table.tmpr0.gz (39/47/fopen): adding to final database dump
+0002.317 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_mb_relationships.table.gz (40/47/fopen): adding to final database dump
+0002.319 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_action_meta.table.tmpr172.gz (41/47/fopen): adding to final database dump
+0002.321 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_action_meta.table.gz (42/47/fopen): adding to final database dump
+0002.323 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_actions.table.tmpr12.gz (43/47/fopen): adding to final database dump
+0002.325 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_actions.table.gz (44/47/fopen): adding to final database dump
+0002.327 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_chunks.table.tmpr0.gz (45/47/fopen): adding to final database dump
+0002.330 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_chunks.table.gz (46/47/fopen): adding to final database dump
+0002.333 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_field_meta.table.tmpr1621.gz (47/47/fopen): adding to final database dump
+0002.337 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_field_meta.table.gz (48/47/fopen): adding to final database dump
+0002.339 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_fields.table.tmpr42.gz (49/47/fopen): adding to final database dump
+0002.342 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_fields.table.gz (50/47/fopen): adding to final database dump
+0002.345 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_form_meta.table.tmpr162.gz (51/47/fopen): adding to final database dump
+0002.347 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_form_meta.table.gz (52/47/fopen): adding to final database dump
+0002.349 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_forms.table.tmpr6.gz (53/47/fopen): adding to final database dump
+0002.352 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_forms.table.gz (54/47/fopen): adding to final database dump
+0002.354 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_object_meta.table.tmpr0.gz (55/47/fopen): adding to final database dump
+0002.355 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_object_meta.table.gz (56/47/fopen): adding to final database dump
+0002.358 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_objects.table.tmpr0.gz (57/47/fopen): adding to final database dump
+0002.360 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_objects.table.gz (58/47/fopen): adding to final database dump
+0002.363 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_relationships.table.tmpr0.gz (59/47/fopen): adding to final database dump
+0002.365 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_relationships.table.gz (60/47/fopen): adding to final database dump
+0002.366 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_upgrades.table.tmpr0.gz (61/47/fopen): adding to final database dump
+0002.368 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_nf3_upgrades.table.gz (62/47/fopen): adding to final database dump
+0002.370 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_404_logs.table.tmpr0.gz (63/47/fopen): adding to final database dump
+0002.372 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_404_logs.table.gz (64/47/fopen): adding to final database dump
+0002.375 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_internal_links.table.tmpr25.gz (65/47/fopen): adding to final database dump
+0002.378 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_internal_links.table.gz (66/47/fopen): adding to final database dump
+0002.380 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_internal_meta.table.tmpr1313.gz (67/47/fopen): adding to final database dump
+0002.382 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_internal_meta.table.gz (68/47/fopen): adding to final database dump
+0002.384 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_redirections.table.tmpr0.gz (69/47/fopen): adding to final database dump
+0002.387 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_redirections.table.gz (70/47/fopen): adding to final database dump
+0002.389 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_redirections_cache.table.tmpr0.gz (71/47/fopen): adding to final database dump
+0002.392 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_redirections_cache.table.gz (72/47/fopen): adding to final database dump
+0002.394 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_sc_analytics.table.tmpr0.gz (73/47/fopen): adding to final database dump
+0002.396 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_rank_math_sc_analytics.table.gz (74/47/fopen): adding to final database dump
+0002.399 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_sgpb_subscribers.table.tmpr0.gz (75/47/fopen): adding to final database dump
+0002.401 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_sgpb_subscribers.table.gz (76/47/fopen): adding to final database dump
+0002.403 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_sgpb_subscription_error_log.table.tmpr0.gz (77/47/fopen): adding to final database dump
+0002.406 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_sgpb_subscription_error_log.table.gz (78/47/fopen): adding to final database dump
+0002.410 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_social_users.table.tmpr0.gz (79/47/fopen): adding to final database dump
+0002.414 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_social_users.table.gz (80/47/fopen): adding to final database dump
+0002.416 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpfm_backup.table.tmpr0.gz (81/47/fopen): adding to final database dump
+0002.419 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_wpfm_backup.table.gz (82/47/fopen): adding to final database dump
+0002.421 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_indexable.table.tmpr3.gz (83/47/fopen): adding to final database dump
+0002.423 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_indexable.table.gz (84/47/fopen): adding to final database dump
+0002.427 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_indexable_hierarchy.table.tmpr1.gz (85/47/fopen): adding to final database dump
+0002.429 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_indexable_hierarchy.table.gz (86/47/fopen): adding to final database dump
+0002.431 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_migrations.table.tmpr15.gz (87/47/fopen): adding to final database dump
+0002.432 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_migrations.table.gz (88/47/fopen): adding to final database dump
+0002.434 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_primary_term.table.tmpr0.gz (89/47/fopen): adding to final database dump
+0002.436 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_primary_term.table.gz (90/47/fopen): adding to final database dump
+0002.437 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_seo_links.table.tmpr0.gz (91/47/fopen): adding to final database dump
+0002.439 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_seo_links.table.gz (92/47/fopen): adding to final database dump
+0002.442 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_seo_meta.table.tmpr0.gz (93/47/fopen): adding to final database dump
+0002.444 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db-table-wp_yoast_seo_meta.table.gz (94/47/fopen): adding to final database dump
+0002.477 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db.gz: finished writing out complete database file (269.3 KB)
+0002.507 (0) Total database tables backed up: 47 (backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db.gz, size: 275832, sha1: ee02654a088b0f29c2812c0ececf0e975fd50046, sha256: 064e2c8550ea7942af43f26899da3191361ec69da458cf17b08fb8b3df053006)
+0002.520 (0) backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.521 (0) Saving backup history. Total backup size: 269.4 KB
+0002.527 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.533 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0002.535 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6b2c46363911a0ce856e4b57988cc9f8)
+0004.336 (0) Google Drive: quota usage: used=4210.9 MB, total=15360 MB, available=11149.1 MB
+0004.344 (0) Google Drive: backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db.gz: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0006.741 (0) Googledrive chunked upload: 100 % uploaded
+0006.748 (0) Google Drive: OK: Archive backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db.gz uploaded in 2.4 seconds
+0006.750 (0) Recording as successfully uploaded: backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db.gz
+0006.754 (0) Deleting local file: backup_2021-07-26-2027_Bt_ng_sn_An_Vit_ccb1953745ba-db.gz: OK
+0006.761 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.764 (0) Number of backup sets in history: 6; groups (db): 1
+0006.765 (0) Examining (for databases) backup set with group_id=0, nonce=ccb1953745ba, datestamp=1627306065 (Jul 26 2021 13:27:45)
+0006.767 (0) This backup set is the backup set just made, so will not be deleted.
+0006.767 (0) Examining (for databases) backup set with group_id=0, nonce=7ae5828e3e26, datestamp=1627305990 (Jul 26 2021 13:26:30)
+0006.767 (0) Examining (for databases) backup set with group_id=0, nonce=18d4435489b6, datestamp=1625158395 (Jul 01 2021 16:53:15)
+0006.767 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.769 (0) Examining (for databases) backup set with group_id=0, nonce=dbcdf5e29f7e, datestamp=1624564366 (Jun 24 2021 19:52:46)
+0006.769 (0) 1624564366: db: this set includes a database (backup_2021-06-25-0252_Bt_ng_sn_Hi_Phng_dbcdf5e29f7e-db.gz); db count is now 2
+0006.769 (0) 1624564366: db: over retain limit (2); will delete this database
+0006.769 (0) Delete file: backup_2021-06-25-0252_Bt_ng_sn_Hi_Phng_dbcdf5e29f7e-db.gz, service=googledrive
+0007.946 (0) Google Drive: backup_2021-06-25-0252_Bt_ng_sn_Hi_Phng_dbcdf5e29f7e-db.gz: Deletion failed: file was not found
+0007.951 (0) This backup set is now empty; will remove from history
+0007.954 (0) Deleting log file (log.dbcdf5e29f7e.txt)
+0007.957 (0) Examining (for databases) backup set with group_id=0, nonce=afac22e3389a, datestamp=1624558652 (Jun 24 2021 18:17:32)
+0007.957 (0) Examining (for databases) backup set with group_id=0, nonce=8f88d30391df, datestamp=1623345338 (Jun 10 2021 17:15:38)
+0007.957 (0) Number of backup sets in history: 5; groups (files): 1
+0007.960 (0) Examining (for files) backup set with nonce=ccb1953745ba, datestamp=1627306065 (Jul 26 2021 13:27:45)
+0007.960 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.964 (0) Examining (for files) backup set with nonce=7ae5828e3e26, datestamp=1627305990 (Jul 26 2021 13:26:30)
+0007.964 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.966 (0) Examining (for files) backup set with nonce=18d4435489b6, datestamp=1625158395 (Jul 01 2021 16:53:15)
+0007.966 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.970 (0) Examining (for files) backup set with nonce=afac22e3389a, datestamp=1624558652 (Jun 24 2021 18:17:32)
+0007.970 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.971 (0) Examining (for files) backup set with nonce=8f88d30391df, datestamp=1623345338 (Jun 10 2021 17:15:38)
+0007.972 (0) plugins: over retain limit (2); will delete this file entity
+0007.972 (0) themes: over retain limit (2); will delete this file entity
+0007.972 (0) uploads: over retain limit (2); will delete this file entity
+0007.972 (0) others: over retain limit (2); will delete this file entity
+0007.972 (0) Delete file: backup_2021-06-11-0015_Bt_ng_sn_Hi_Phng_8f88d30391df-plugins.zip, service=googledrive
+0007.975 (0) Delete file: backup_2021-06-11-0015_Bt_ng_sn_Hi_Phng_8f88d30391df-themes.zip, service=googledrive
+0007.977 (0) Delete file: backup_2021-06-11-0015_Bt_ng_sn_Hi_Phng_8f88d30391df-uploads.zip, service=googledrive
+0007.979 (0) Delete file: backup_2021-06-11-0015_Bt_ng_sn_Hi_Phng_8f88d30391df-others.zip, service=googledrive
+0008.579 (0) Google Drive: backup_2021-06-11-0015_Bt_ng_sn_Hi_Phng_8f88d30391df-plugins.zip: Deletion failed: file was not found
+0008.581 (0) Google Drive: backup_2021-06-11-0015_Bt_ng_sn_Hi_Phng_8f88d30391df-themes.zip: Deletion failed: file was not found
+0008.583 (0) Google Drive: backup_2021-06-11-0015_Bt_ng_sn_Hi_Phng_8f88d30391df-uploads.zip: Deletion failed: file was not found
+0008.584 (0) Google Drive: backup_2021-06-11-0015_Bt_ng_sn_Hi_Phng_8f88d30391df-others.zip: Deletion failed: file was not found
+0008.588 (0) This backup set is now empty; will remove from history
+0008.589 (0) Corresponding log file (log.8f88d30391df.txt) not found - must have already been deleted
+0008.591 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0008.597 (0) Resume backup (ccb1953745ba, 0): finish run
+0008.602 (0) Decremented the semaphore (d) by 1
+0008.605 (0) Semaphore (d) unlocked
+0008.606 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0008.612 (0) No email will/can be sent - the user has not configured an email address.
+0008.613 (0) The backup apparently succeeded and is now complete

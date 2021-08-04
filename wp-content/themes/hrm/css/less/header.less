@@ -1,0 +1,247 @@
+.site-header {
+	position: relative;
+}
+.top-bar {
+    height: 35px;
+    background: #fafafa;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.top-phone {
+    font-weight: bold;
+    font-size: 16px;
+
+	a {
+		line-height: 35px;
+		color: #676666;
+
+		i {
+			padding-right: 2px;
+		}
+	}
+}
+.login-logout {
+	ul {
+	    float: right;
+	    li {
+		    float: left;
+		    line-height: 35px;
+		    a {
+			    text-decoration: none;
+			    line-height: 35px;
+			    color: #474747;
+			    padding: 8px 15px;
+			    border-left: 1px solid #dfdfdf;
+			    font-size: 14px;
+			    i {
+				    padding-right: 2px;
+				}
+			}
+		    i {
+			    color: @primary-color;
+			}
+		}
+		li.welcome {
+		    padding-right: 12px;
+		}
+	}
+}
+.site-branding {
+	padding: 5px 10px;
+}
+
+.logo {
+	padding-top: 25px;
+	.site-title {
+		margin: 0px;
+		padding-top: 20px;
+	}
+}
+.advanced-search {
+    // height: 266px;
+    position: relative;
+    .clearfix;
+}
+
+.form-search {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+
+	ul.nav-tabs {
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+
+		li {
+			background: url("images/bg_opacity.png");
+			text-transform: uppercase;
+			font-size: 16px;
+			margin-bottom: 0px;
+
+			a {
+				padding: 5px 20px;
+				text-decoration: none;
+				text-transform: uppercase;
+				color: #fff;
+			    margin-right: 0px;
+				border: 0px; 
+				border-radius: 0px; 
+				font-weight: bold;
+
+				&:hover {
+					background: @primary-color;
+					border: 0px;
+					color: #fff;					
+				}
+			}
+		}
+
+		li.active {
+			a,
+			a:focus,
+			a:hover {
+				background: @primary-color;
+				border: 0px;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.form-search {
+	.tab-content {
+		padding: 13px 13px 0px 13px;
+		background: url("images/bg_opacity.png");
+	}
+}
+// login 
+.login-title {
+    width: 810px;
+    margin: 50px auto 15px auto;
+    height: 26px;
+    line-height: 26px;
+    h3 {
+	    font-size: 22px;
+	    color: #424242;
+	    font-weight: 400;
+	}
+}
+.login-other {
+    float: right;
+    margin-top: -26px;
+    color: #757575;
+    a {
+    	color: @primary-color;
+    	font-weight: bold;
+    }
+}
+.mod-login {
+    width: 810px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 25px 50px 50px 25px;
+    background-color: #fff;
+    color: #757575;
+    // height: 320px;
+    label {
+	    font-size: 12px;
+	    height: 15px;
+	    line-height: 15px;
+	    overflow: hidden;
+	    color: #424242;
+	    display: block;
+	    margin-bottom: 5px;
+	}
+	span {
+	    min-height: 16px;
+	    line-height: 16px;
+	    font-size: 12px;
+	    display: block;
+	    margin-bottom: 10px;
+	}
+}
+.mod-login-col1 {
+    width: 380px;
+    float: left;
+    input {
+    	-webkit-box-sizing: border-box;
+	    box-sizing: border-box;
+	    width: 100%;
+	    border: 1px solid #ddd;
+	    font-size: 14px;
+	    height: 40px;
+	    line-height: 38px \0;
+	    padding: 0 35px 0 10px;
+	    margin-bottom: 2px;
+	    outline: none;
+    }
+    #wp-submit {
+	    display: inline-block;
+	    transition: all .3s ease-out;
+	    border-radius: 2px;
+	    border-style: solid;
+	    text-align: center;
+	    border-style: solid;
+	    background-color: @primary-color;
+	    border-color: transparent;
+	    color: #fff;
+	   	margin: 0;
+	   	width: 100%;
+	    height: 48px;
+	    padding: 0 36px;
+	    font-size: 14px;
+	    line-height: 46px;
+	    border-width: 1px;
+    }
+    #rememberme {
+	    float: left;
+	    width: 20px;
+	    padding: 0;
+	    height: auto;
+	    margin-top: 1px;
+	}
+}
+.mod-login-col2 {
+    width: 305px;
+    float: right;
+}
+.mod-login-btn {
+    margin: 12px 0;
+}
+.page-template-template-login, .page-template-user {
+	.site-content {
+	    background: #eff0f5;
+	}
+	.hrm-breadcrums {
+		display: none;
+	}
+}
+.mod-login-btn {
+    margin: 12px 0;
+    button {
+    	display: inline-block;
+	    transition: all .3s ease-out;
+	    border-radius: 2px;
+	    border-style: solid;
+	    text-align: center;
+	    border-style: solid;
+	    background-color: @primary-color;
+	    border-color: transparent;
+	    color: #fff;
+	   	margin: 0;
+	   	width: 100%;
+	    height: 48px;
+	    padding: 0 36px;
+	    font-size: 14px;
+	    line-height: 46px;
+	    border-width: 1px;
+    }
+}
+
+.hrm-banner {
+	img {
+		// width: 100%;
+	}
+}

@@ -1,0 +1,267 @@
+0000.001 (0) Opened log file at time: Mon, 26 Jul 2021 13:26:30 +0000 on http://bdsanviet.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.7 PHP: 7.4.8 (apache2handler, Windows NT ADMIN 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.13-MariaDB (max packet size=1048576) WPLANG: vi Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.8 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 49.3M | 16M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 19508.7 MB
+0000.013 (0) Deleting old log file: log.8f88d30391df.txt
+0000.017 (0) Deleting old log file: log.fb3645207299.txt
+0000.019 (0) Tasks: Backup files: 1 (schedule: fortnightly) Backup DB:  (schedule: weekly)
+0000.024 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.037 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1624558653, seconds_ago=2747337)
+0000.043 (0) Set semaphore last lock (f) time to 2021-07-26 13:26:30
+0000.045 (0) Semaphore lock (f) complete
+0000.051 (0) Backup run: resumption=0, nonce=7ae5828e3e26, file_nonce=7ae5828e3e26 begun at=1627305990 (0s ago), job type=backup
+0000.058 (0) Scheduling a resumption (1) after 300 seconds (1627306290) in case this run gets aborted
+0000.079 (0) Checking if we have a zip executable available
+0000.084 (0) Creation of backups of directories: beginning
+0000.092 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.875 (0) Total entities for the zip file: 1034 directories, 6228 files (0 skipped as non-modified), 97.3 MB
+0003.892 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.166 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 100 files added (on-disk size: 188.6 KB)
+0004.197 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 200 files added (on-disk size: 188.6 KB)
+0004.226 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 300 files added (on-disk size: 188.6 KB)
+0004.251 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 400 files added (on-disk size: 188.6 KB)
+0004.276 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 500 files added (on-disk size: 188.6 KB)
+0004.309 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 600 files added (on-disk size: 188.6 KB)
+0004.345 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 700 files added (on-disk size: 188.6 KB)
+0004.386 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 800 files added (on-disk size: 188.6 KB)
+0004.432 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 900 files added (on-disk size: 188.6 KB)
+0004.465 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 1000 files added (on-disk size: 188.6 KB)
+0004.470 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.7 MB, 6228 files batched, 1001 (1002) added so far); re-opening (prior size: 188.6 KB)
+0006.411 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 1100 files added (on-disk size: 4746 KB)
+0006.441 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 1200 files added (on-disk size: 4746 KB)
+0006.467 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 1300 files added (on-disk size: 4746 KB)
+0006.494 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 1400 files added (on-disk size: 4746 KB)
+0006.543 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 1500 files added (on-disk size: 4746 KB)
+0006.570 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 1600 files added (on-disk size: 4746 KB)
+0006.598 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 1700 files added (on-disk size: 4746 KB)
+0006.626 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 1800 files added (on-disk size: 4746 KB)
+0006.646 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 1900 files added (on-disk size: 4746 KB)
+0006.667 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 2000 files added (on-disk size: 4746 KB)
+0006.670 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.6 MB, 6228 files batched, 1001 (2003) added so far); re-opening (prior size: 4746 KB)
+0008.623 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 2100 files added (on-disk size: 11810 KB)
+0008.642 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 2200 files added (on-disk size: 11810 KB)
+0008.661 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 2300 files added (on-disk size: 11810 KB)
+0008.681 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 2400 files added (on-disk size: 11810 KB)
+0008.700 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 2500 files added (on-disk size: 11810 KB)
+0008.718 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 2600 files added (on-disk size: 11810 KB)
+0008.747 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 2700 files added (on-disk size: 11810 KB)
+0008.765 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 2800 files added (on-disk size: 11810 KB)
+0008.782 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 2900 files added (on-disk size: 11810 KB)
+0008.801 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 3000 files added (on-disk size: 11810 KB)
+0008.804 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.4 MB, 6228 files batched, 1001 (3004) added so far); re-opening (prior size: 11810 KB)
+0009.963 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 3100 files added (on-disk size: 15532.6 KB)
+0009.991 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 3200 files added (on-disk size: 15532.6 KB)
+0010.015 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 3300 files added (on-disk size: 15532.6 KB)
+0010.046 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 3400 files added (on-disk size: 15532.6 KB)
+0010.077 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 3500 files added (on-disk size: 15532.6 KB)
+0010.106 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 3600 files added (on-disk size: 15532.6 KB)
+0010.126 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 3700 files added (on-disk size: 15532.6 KB)
+0010.148 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 3800 files added (on-disk size: 15532.6 KB)
+0010.170 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 3900 files added (on-disk size: 15532.6 KB)
+0010.191 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 4000 files added (on-disk size: 15532.6 KB)
+0010.194 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.3 MB, 6228 files batched, 1001 (4005) added so far); re-opening (prior size: 15532.6 KB)
+0011.554 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 4100 files added (on-disk size: 19419.1 KB)
+0011.573 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 4200 files added (on-disk size: 19419.1 KB)
+0011.593 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 4300 files added (on-disk size: 19419.1 KB)
+0011.612 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 4400 files added (on-disk size: 19419.1 KB)
+0011.631 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 4500 files added (on-disk size: 19419.1 KB)
+0011.649 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 4600 files added (on-disk size: 19419.1 KB)
+0011.669 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 4700 files added (on-disk size: 19419.1 KB)
+0011.689 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 4800 files added (on-disk size: 19419.1 KB)
+0011.709 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 4900 files added (on-disk size: 19419.1 KB)
+0011.728 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 5000 files added (on-disk size: 19419.1 KB)
+0011.731 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.3 MB, 6228 files batched, 1001 (5006) added so far); re-opening (prior size: 19419.1 KB)
+0013.642 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 5100 files added (on-disk size: 23574.6 KB)
+0013.669 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 5200 files added (on-disk size: 23574.6 KB)
+0013.687 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 5300 files added (on-disk size: 23574.6 KB)
+0013.704 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 5400 files added (on-disk size: 23574.6 KB)
+0013.723 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 5500 files added (on-disk size: 23574.6 KB)
+0013.740 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 5600 files added (on-disk size: 23574.6 KB)
+0013.759 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 5700 files added (on-disk size: 23574.6 KB)
+0013.777 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 5800 files added (on-disk size: 23574.6 KB)
+0013.795 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 5900 files added (on-disk size: 23574.6 KB)
+0013.815 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 6000 files added (on-disk size: 23574.6 KB)
+0013.818 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.2 MB, 6228 files batched, 1001 (6007) added so far); re-opening (prior size: 23574.6 KB)
+0016.340 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 6100 files added (on-disk size: 31158.6 KB)
+0016.360 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip.tmp: 6200 files added (on-disk size: 31158.6 KB)
+0017.448 (0) Created plugins zip (0) - 31980.6 KB in 17.4 s (1843.2 KB/s) (sha1: 5c6f48ac717178e04a52067e1ce6428459d34483, sha256: 725e05a9febcac91fe17202de0d74023b892e1ea03716f94476fb24101c2e18a)
+0017.455 (0) Beginning creation of dump of themes (split every: 400 MB)
+0017.870 (0) Total entities for the zip file: 228 directories, 955 files (0 skipped as non-modified), 16.2 MB
+0017.888 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.918 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.941 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.959 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0017.976 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0017.993 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0019.703 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0019.751 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (10.9 MB, 701 (701) files added so far); re-opening (prior size: 0 KB)
+0022.763 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 61 (762) files added so far); re-opening (prior size: 5747.9 KB)
+0023.110 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip.tmp: 800 files added (on-disk size: 6615.1 KB)
+0023.139 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip.tmp: 900 files added (on-disk size: 6615.1 KB)
+0023.530 (0) Created themes zip (0) - 9275.2 KB in 6.1 s (1527.8 KB/s) (sha1: 5b578cedb207475b06792ae0bdc7bda6fc0fb2d9, sha256: b73c213b41f28424f7bf2a912b98d0e15180423f69ecb8ad57406130538be3ca)
+0023.536 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0023.537 (0) Looking for candidates to backup in: D:\xampp\htdocs\bdsanviet/wp-content/uploads
+0023.540 (0) finding files: 2016: adding to list (1)
+0023.541 (0) finding files: 2017: adding to list (2)
+0023.543 (0) finding files: 2018: adding to list (3)
+0023.547 (0) finding files: 2019: adding to list (4)
+0023.549 (0) finding files: 2020: adding to list (5)
+0023.551 (0) finding files: 2021: adding to list (6)
+0023.552 (0) finding files: iw-backup: adding to list (7)
+0023.554 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0023.945 (0) Total entities for the zip file: 22 directories, 633 files (0 skipped as non-modified), 38.7 MB
+0023.983 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.017 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.047 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0024.082 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0024.130 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0024.139 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 633 files batched, 526 (526) added so far); re-opening (prior size: 0 KB)
+0024.451 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 15048.3 KB/s)
+0024.455 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.7034890651703, normalised_time=1.7011836052414, max_time=24.452154874802, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0024.478 (0) Zip: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip.tmp: 600 files added (on-disk size: 25722.7 KB)
+0025.437 (0) Created uploads zip (0) - 39735.7 KB in 1.9 s (21167.2 KB/s) (sha1: 2b118e18e783f0c60459ef10e6c348e5102ea167, sha256: 173aceded75a559888e296f2bcced1f3b112fa0ad23eed284a08965af2a580ab)
+0025.448 (0) Beginning backup of other directories found in the content directory (index: 0)
+0025.450 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0025.452 (0) Looking for candidates to backup in: D:\xampp\htdocs\bdsanviet/wp-content
+0025.454 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0025.457 (0) finding files: backups-dup-lite: skipping: excluded by options (glob)
+0025.463 (0) finding files: cache: skipping: excluded by options
+0025.465 (0) finding files: index.php: adding to list (1)
+0025.467 (0) finding files: languages: adding to list (2)
+0025.469 (0) finding files: plugins: skipping: this is the plugins directory
+0025.471 (0) finding files: themes: skipping: this is the themes directory
+0025.477 (0) finding files: updraft: skipping: this is the updraft directory
+0025.481 (0) finding files: upgrade: skipping: excluded by options
+0025.482 (0) finding files: uploads: skipping: this is the uploads directory
+0025.537 (0) Total entities for the zip file: 3 directories, 80 files (0 skipped as non-modified), 2.7 MB
+0026.298 (0) Created others zip (0) - 767.6 KB in 0.8 s (947.1 KB/s) (sha1: c0771ab1d5c667cda08e5e5dc39cb6d02f4cba32, sha256: 0626d111c319e342013c5bdead8c5d21d01cf398435d19b06842ac320fa96a50)
+0026.307 (0) Saving backup status to database (elements: 8)
+0026.311 (0) No database backup (wp) - not part of this run
+0026.315 (0) backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0026.317 (0) backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0026.319 (0) backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0026.321 (0) backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-others.zip: others: This file has not yet been successfully uploaded: will queue
+0026.322 (0) Saving backup history. Total backup size: 79.8 MB
+0026.326 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0026.330 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0026.331 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6b2c46363911a0ce856e4b57988cc9f8)
+0030.872 (0) Google Drive: quota usage: used=4210.9 MB, total=15360 MB, available=11149.1 MB
+0030.874 (0) Google Drive: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0032.366 (0) Googledrive chunked upload: 3.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 52.2 / 20)
+0092.380 (0) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\xampp\htdocs\bdsanviet\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0153.090 (0) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\xampp\htdocs\bdsanviet\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0153.092 (0) Google Drive: Upload exception (UDP_Google_IO_Exception): Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\xampp\htdocs\bdsanviet\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0153.094 (0) An error condition has occurred for the first time during this job
+0153.598 (0) Google Drive: quota usage: used=4211.2 MB, total=15360 MB, available=11148.8 MB
+0153.601 (0) Google Drive: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0155.326 (0) Googledrive chunked upload: 11 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 57.2 / 24)
+0156.305 (0) Googledrive chunked upload: 33.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 57.2 / 24)
+0159.534 (0) Googledrive chunked upload: 77.3 % uploaded (7340032)
+0161.549 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0161.556 (0) Google Drive: OK: Archive backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip uploaded in 7.95 seconds
+0161.558 (0) Recording as successfully uploaded: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip
+0161.569 (0) Deleting local file: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip: OK
+0162.128 (0) Google Drive: quota usage: used=4220.3 MB, total=15360 MB, available=11139.7 MB
+0162.134 (0) Google Drive: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0163.688 (0) Googledrive chunked upload: 2.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 57.2 / 24)
+0164.666 (0) Googledrive chunked upload: 7.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 57.2 / 24)
+0166.191 (0) Googledrive chunked upload: 18 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 57.2 / 24)
+0170.137 (0) Googledrive chunked upload: 38.7 % uploaded (15728640)
+0173.842 (0) Googledrive chunked upload: 59.3 % uploaded (24117248)
+0176.262 (0) Googledrive chunked upload: 79.9 % uploaded (32505856 - increasing chunk size to 16384 KB - memory usage: 57.2 / 24)
+0179.964 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0179.985 (0) Google Drive: OK: Archive backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip uploaded in 17.85 seconds
+0179.988 (0) Recording as successfully uploaded: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip
+0180.002 (0) Deleting local file: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip: OK
+0180.498 (0) Google Drive: quota usage: used=4259.1 MB, total=15360 MB, available=11100.9 MB
+0180.501 (0) Google Drive: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-others.zip: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0183.110 (0) Googledrive chunked upload: 100 % uploaded
+0183.119 (0) Google Drive: OK: Archive backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-others.zip uploaded in 2.61 seconds
+0183.123 (0) Recording as successfully uploaded: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-others.zip
+0183.128 (0) Deleting local file: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-others.zip: OK
+0183.135 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0183.139 (0) Number of backup sets in history: 4; groups (db): 1
+0183.142 (0) Examining (for databases) backup set with group_id=0, nonce=ccb1953745ba, datestamp=1627306065 (Jul 26 2021 13:27:45)
+0183.145 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0183.147 (0) Examining (for databases) backup set with group_id=0, nonce=7ae5828e3e26, datestamp=1627305990 (Jul 26 2021 13:26:30)
+0183.147 (0) Examining (for databases) backup set with group_id=0, nonce=18d4435489b6, datestamp=1625158395 (Jul 01 2021 16:53:15)
+0183.147 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0183.147 (0) Examining (for databases) backup set with group_id=0, nonce=afac22e3389a, datestamp=1624558652 (Jun 24 2021 18:17:32)
+0183.147 (0) Number of backup sets in history: 4; groups (files): 1
+0183.149 (0) Examining (for files) backup set with nonce=ccb1953745ba, datestamp=1627306065 (Jul 26 2021 13:27:45)
+0183.149 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0183.152 (0) Examining (for files) backup set with nonce=7ae5828e3e26, datestamp=1627305990 (Jul 26 2021 13:26:30)
+0183.152 (0) This backup set is the backup set just made, so will not be deleted.
+0183.155 (0) This backup set is the backup set just made, so will not be deleted.
+0183.155 (0) This backup set is the backup set just made, so will not be deleted.
+0183.156 (0) This backup set is the backup set just made, so will not be deleted.
+0183.156 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0183.158 (0) Examining (for files) backup set with nonce=18d4435489b6, datestamp=1625158395 (Jul 01 2021 16:53:15)
+0183.158 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0183.160 (0) Examining (for files) backup set with nonce=afac22e3389a, datestamp=1624558652 (Jun 24 2021 18:17:32)
+0183.160 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0183.163 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0183.169 (0) Resume backup (7ae5828e3e26, 0): finish run
+0183.177 (0) Decremented the semaphore (f) by 1
+0183.182 (0) Semaphore (f) unlocked
+0183.185 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0183.194 (0) Rescheduling resumption 1: moving to 60 seconds from now (1627306233)
+0183.199 (0) No email will/can be sent - the user has not configured an email address.
+0183.200 (0) The backup has not finished; a resumption is scheduled
+0341.595 (1) Opened log file at time: Mon, 26 Jul 2021 13:32:11 +0000 on http://bdsanviet.com
+0341.601 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.7 PHP: 7.4.8 (apache2handler, Windows NT ADMIN 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.13-MariaDB (max packet size=1048576) WPLANG: vi Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.8 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 55.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0341.605 (1) Free space on disk containing Updraft's temporary directory: 19477.7 MB
+0341.608 (1) Requesting backup semaphore lock (7ae5828e3e26)
+0341.612 (1) [Lock option (updraft_lock_7ae5828e3e26, wp_options) was created in the database] debug
+0341.616 (1) [Lock (updraft_lock_7ae5828e3e26, wp_options) acquired after initialising the database] info
+0341.627 (1) Backup run: resumption=1, nonce=7ae5828e3e26, file_nonce=7ae5828e3e26 begun at=1627305990 (341s ago), job type=backup, previous check-in=183.1s
+0341.632 (1) Scheduling a resumption (2) after 300 seconds (1627306631) in case this run gets aborted
+0341.649 (1) Checking if we have a zip executable available
+0341.654 (1) Creation of backups of directories: already finished
+0341.658 (1) Saving backup status to database (elements: 8)
+0341.671 (1) No database backup (wp) - not part of this run
+0341.674 (1) backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0341.676 (1) backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-themes.zip: themes: This file has already been successfully uploaded
+0341.678 (1) backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-uploads.zip: uploads: This file has already been successfully uploaded
+0341.680 (1) backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-others.zip: others: This file has already been successfully uploaded
+0341.684 (1) Saving backup history. Total backup size: 79.8 MB
+0341.695 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0341.702 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0341.704 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6b2c46363911a0ce856e4b57988cc9f8)
+0343.442 (1) Google Drive: quota usage: used=4259.8 MB, total=15360 MB, available=11100.2 MB
+0343.444 (1) Google Drive: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0344.920 (1) Googledrive chunked upload: 3.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 58.3 / 8)
+0345.977 (1) Googledrive chunked upload: 9.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 58.3 / 8)
+0347.966 (1) Googledrive chunked upload: 22.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 58.3 / 8)
+0350.164 (1) Googledrive chunked upload: 48 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 58.3 / 8)
+0355.944 (1) Googledrive chunked upload: 99.3 % uploaded (32505856)
+0357.485 (1) Googledrive chunked upload: 100 % uploaded (32505856)
+0357.518 (1) Google Drive: OK: Archive backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip uploaded in 14.07 seconds
+0357.528 (1) Recording as successfully uploaded: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip
+0357.556 (1) Deleting local file: backup_2021-07-26-2026_Bt_ng_sn_An_Vit_7ae5828e3e26-plugins.zip: OK
+0357.584 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0357.594 (1) Number of backup sets in history: 4; groups (db): 1
+0357.601 (1) Examining (for databases) backup set with group_id=0, nonce=ccb1953745ba, datestamp=1627306065 (Jul 26 2021 13:27:45)
+0357.610 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0357.616 (1) Examining (for databases) backup set with group_id=0, nonce=7ae5828e3e26, datestamp=1627305990 (Jul 26 2021 13:26:30)
+0357.617 (1) Examining (for databases) backup set with group_id=0, nonce=18d4435489b6, datestamp=1625158395 (Jul 01 2021 16:53:15)
+0357.617 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0357.617 (1) Examining (for databases) backup set with group_id=0, nonce=afac22e3389a, datestamp=1624558652 (Jun 24 2021 18:17:32)
+0357.617 (1) Number of backup sets in history: 4; groups (files): 1
+0357.625 (1) Examining (for files) backup set with nonce=ccb1953745ba, datestamp=1627306065 (Jul 26 2021 13:27:45)
+0357.625 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0357.633 (1) Examining (for files) backup set with nonce=7ae5828e3e26, datestamp=1627305990 (Jul 26 2021 13:26:30)
+0357.634 (1) This backup set is the backup set just made, so will not be deleted.
+0357.645 (1) This backup set is the backup set just made, so will not be deleted.
+0357.645 (1) This backup set is the backup set just made, so will not be deleted.
+0357.646 (1) This backup set is the backup set just made, so will not be deleted.
+0357.647 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0357.655 (1) Examining (for files) backup set with nonce=18d4435489b6, datestamp=1625158395 (Jul 01 2021 16:53:15)
+0357.655 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0357.663 (1) Examining (for files) backup set with nonce=afac22e3389a, datestamp=1624558652 (Jun 24 2021 18:17:32)
+0357.663 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0357.671 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0357.712 (1) Resume backup (7ae5828e3e26, 1): finish run
+0357.810 (1) [Lock option (updraft_lock_7ae5828e3e26, wp_options) released] info
+0357.839 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0357.895 (1) No email will/can be sent - the user has not configured an email address.
+0357.910 (1) The backup apparently succeeded and is now complete

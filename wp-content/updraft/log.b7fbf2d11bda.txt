@@ -1,0 +1,211 @@
+0000.004 (0) Opened log file at time: Thu, 22 Jul 2021 17:07:53 +0000 on https://batdongsanbinhphat.com
+0000.010 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.6 PHP: 7.4.21 (litespeed, Linux vps28217.sdns.vn 3.10.0-1062.1.2.el7.x86_64 #1 SMP Mon Sep 30 14:19:46 UTC 2019 x86_64) MySQL: 10.1.18-MariaDB WPLANG: vi Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9M | 10M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.013 (0) Free space on disk containing Updraft's temporary directory: 4170.1 MB
+0000.022 (0) Tasks: Backup files: 1 (schedule: fortnightly) Backup DB:  (schedule: weekly)
+0000.029 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.052 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1625765094, seconds_ago=1208579)
+0000.064 (0) Set semaphore last lock (f) time to 2021-07-22 17:07:53
+0000.067 (0) Semaphore lock (f) complete
+0000.078 (0) Backup run: resumption=0, nonce=b7fbf2d11bda, file_nonce=b7fbf2d11bda begun at=1626973673 (0s ago), job type=backup
+0000.085 (0) Scheduling a resumption (1) after 300 seconds (1626973973) in case this run gets aborted
+0000.128 (0) Checking if we have a zip executable available
+0000.137 (0) Creation of backups of directories: beginning
+0000.148 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.014 (0) Total entities for the zip file: 621 directories, 4100 files (0 skipped as non-modified), 60.8 MB
+0004.030 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.278 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 100 files added (on-disk size: 107.4 KB)
+0004.339 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 200 files added (on-disk size: 107.4 KB)
+0004.415 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 300 files added (on-disk size: 107.4 KB)
+0004.476 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 400 files added (on-disk size: 107.4 KB)
+0004.572 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 500 files added (on-disk size: 107.4 KB)
+0004.578 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2 MB, 4100 files batched, 501 (502) added so far); re-opening (prior size: 107.4 KB)
+0004.954 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 600 files added (on-disk size: 765.2 KB)
+0005.018 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 700 files added (on-disk size: 765.2 KB)
+0005.090 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 800 files added (on-disk size: 765.2 KB)
+0005.166 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 900 files added (on-disk size: 765.2 KB)
+0005.246 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 1000 files added (on-disk size: 765.2 KB)
+0005.252 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.1 MB, 4100 files batched, 501 (1003) added so far); re-opening (prior size: 765.2 KB)
+0006.805 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 1100 files added (on-disk size: 5581.7 KB)
+0006.875 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 1200 files added (on-disk size: 5581.7 KB)
+0006.945 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 1300 files added (on-disk size: 5581.7 KB)
+0007.024 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 1400 files added (on-disk size: 5581.7 KB)
+0007.088 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 1500 files added (on-disk size: 5581.7 KB)
+0007.094 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 4100 files batched, 501 (1504) added so far); re-opening (prior size: 5581.7 KB)
+0007.669 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 1600 files added (on-disk size: 7332.7 KB)
+0007.742 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 1700 files added (on-disk size: 7332.7 KB)
+0007.823 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 1800 files added (on-disk size: 7332.7 KB)
+0007.906 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 1900 files added (on-disk size: 7332.7 KB)
+0007.990 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 2000 files added (on-disk size: 7332.7 KB)
+0007.998 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.1 MB, 4100 files batched, 501 (2005) added so far); re-opening (prior size: 7332.7 KB)
+0008.787 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 2100 files added (on-disk size: 9273.3 KB)
+0008.849 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 2200 files added (on-disk size: 9273.3 KB)
+0008.916 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 2300 files added (on-disk size: 9273.3 KB)
+0008.981 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 2400 files added (on-disk size: 9273.3 KB)
+0009.045 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 2500 files added (on-disk size: 9273.3 KB)
+0009.055 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8 MB, 4100 files batched, 501 (2506) added so far); re-opening (prior size: 9273.3 KB)
+0010.082 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 2600 files added (on-disk size: 13015.5 KB)
+0010.146 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 2700 files added (on-disk size: 13015.5 KB)
+0010.218 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 2800 files added (on-disk size: 13015.5 KB)
+0010.279 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 2900 files added (on-disk size: 13015.5 KB)
+0010.408 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 3000 files added (on-disk size: 13015.5 KB)
+0010.430 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (19.1 MB, 4100 files batched, 501 (3007) added so far); re-opening (prior size: 13015.5 KB)
+0012.714 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 3100 files added (on-disk size: 18042 KB)
+0012.814 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 3200 files added (on-disk size: 18042 KB)
+0012.900 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 3300 files added (on-disk size: 18042 KB)
+0012.989 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 3400 files added (on-disk size: 18042 KB)
+0013.084 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 3500 files added (on-disk size: 18042 KB)
+0013.094 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.4 MB, 4100 files batched, 501 (3508) added so far); re-opening (prior size: 18042 KB)
+0013.882 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 3600 files added (on-disk size: 18797.8 KB)
+0013.962 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 3700 files added (on-disk size: 18797.8 KB)
+0014.043 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 3800 files added (on-disk size: 18797.8 KB)
+0014.108 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 3900 files added (on-disk size: 18797.8 KB)
+0014.169 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 4000 files added (on-disk size: 18797.8 KB)
+0014.180 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 MB, 4100 files batched, 501 (4009) added so far); re-opening (prior size: 18797.8 KB)
+0014.820 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip.tmp: 4100 files added (on-disk size: 20250.5 KB)
+0015.557 (0) Created plugins zip (0) - 20674.3 KB in 15.4 s (1342.2 KB/s) (sha1: 9043391498605a8cac9938f57d1f4a1de6a7e4b7, sha256: a0006bdfb9595b2d9dbb2183cc8c5fccfb411366efe854f7502a2fb6b54ba875)
+0015.568 (0) Beginning creation of dump of themes (split every: 400 MB)
+0016.180 (0) Total entities for the zip file: 138 directories, 610 files (0 skipped as non-modified), 9.7 MB
+0016.247 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0016.305 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0016.375 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0016.437 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0016.504 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0016.508 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.7 MB, 610 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0017.335 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip.tmp: 600 files added (on-disk size: 4938.2 KB)
+0017.599 (0) Created themes zip (0) - 5149.7 KB in 2 s (2544.5 KB/s) (sha1: 7c5a4ede5f54a9d3ab6b4b77e413f4c1d644020a, sha256: 6175793d8a2d898cc8ea1469fc6842657803edbef4fd4de6859097fffbfbf921)
+0017.611 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0017.614 (0) Looking for candidates to backup in: /home/batdongsan/domains/batdongsanbinhphat.com/public_html/wp-content/uploads
+0017.617 (0) finding files: 2019: adding to list (1)
+0017.620 (0) finding files: 2018: adding to list (2)
+0017.624 (0) finding files: rank-math: adding to list (3)
+0017.627 (0) finding files: 2017: adding to list (4)
+0017.631 (0) finding files: 2021: adding to list (5)
+0017.636 (0) finding files: iw-backup: adding to list (6)
+0017.639 (0) finding files: 2020: adding to list (7)
+0017.642 (0) finding files: wp-file-manager-pro: adding to list (8)
+0017.646 (0) finding files: 2016: adding to list (9)
+0017.649 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0018.003 (0) Total entities for the zip file: 48 directories, 406 files (0 skipped as non-modified), 16.2 MB
+0018.057 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.118 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0018.172 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0018.268 (0) Zip: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0019.021 (0) Created uploads zip (0) - 16662.3 KB in 1.4 s (12219.7 KB/s) (sha1: f6a99b94ffff01d93473f8edaa522583cc9607b2, sha256: 6096d77cb9623762a85a5c059925bbc7f66af064f2eb76f253f9f0b96b99bdfb)
+0019.031 (0) Beginning backup of other directories found in the content directory (index: 0)
+0019.036 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0019.039 (0) Looking for candidates to backup in: /home/batdongsan/domains/batdongsanbinhphat.com/public_html/wp-content
+0019.042 (0) finding files: index.php: adding to list (1)
+0019.046 (0) finding files: cache: skipping: excluded by options
+0019.049 (0) finding files: uploads: skipping: this is the uploads directory
+0019.054 (0) finding files: themes: skipping: this is the themes directory
+0019.057 (0) finding files: languages: adding to list (2)
+0019.060 (0) finding files: updraft: skipping: this is the updraft directory
+0019.064 (0) finding files: plugins: skipping: this is the plugins directory
+0019.068 (0) finding files: backups-dup-lite: skipping: excluded by options (glob)
+0019.071 (0) finding files: upgrade: skipping: excluded by options
+0019.075 (0) finding files: advanced-cache.php: adding to list (3)
+0019.108 (0) Total entities for the zip file: 3 directories, 37 files (0 skipped as non-modified), 2.4 MB
+0019.422 (0) Created others zip (0) - 652.2 KB in 0.3 s (1920.3 KB/s) (sha1: 08b8b55b59bf5e8519ef4a6a33b63aca9b91370a, sha256: 3eca1921eba0afe53890babe47998f3eee9b0c6d5406378869ea85bd3052553e)
+0019.440 (0) Saving backup status to database (elements: 8)
+0019.448 (0) No database backup (wp) - not part of this run
+0019.457 (0) backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0019.460 (0) backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0019.464 (0) backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0019.468 (0) backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-others.zip: others: This file has not yet been successfully uploaded: will queue
+0019.472 (0) Saving backup history. Total backup size: 42.1 MB
+0019.480 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0019.491 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0019.495 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6b2c46363911a0ce856e4b57988cc9f8)
+0023.025 (0) Google Drive: quota usage: used=4210.9 MB, total=15360 MB, available=11149.1 MB
+0023.029 (0) Google Drive: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0027.057 (0) Googledrive chunked upload: 5 % uploaded (1048576)
+0028.874 (0) Googledrive chunked upload: 9.9 % uploaded (2097152)
+0029.595 (0) Googledrive chunked upload: 14.9 % uploaded (3145728)
+0031.805 (0) Googledrive chunked upload: 19.8 % uploaded (4194304)
+0036.119 (0) Googledrive chunked upload: 24.8 % uploaded (5242880)
+0036.719 (0) Googledrive chunked upload: 29.7 % uploaded (6291456)
+0037.456 (0) Googledrive chunked upload: 34.7 % uploaded (7340032)
+0039.855 (0) Googledrive chunked upload: 39.6 % uploaded (8388608)
+0043.675 (0) Googledrive chunked upload: 44.6 % uploaded (9437184)
+0044.451 (0) Googledrive chunked upload: 49.5 % uploaded (10485760)
+0046.917 (0) Googledrive chunked upload: 54.5 % uploaded (11534336)
+0049.604 (0) Googledrive chunked upload: 59.4 % uploaded (12582912)
+0052.777 (0) Googledrive chunked upload: 64.4 % uploaded (13631488)
+0056.398 (0) Googledrive chunked upload: 69.3 % uploaded (14680064)
+0058.925 (0) Googledrive chunked upload: 74.3 % uploaded (15728640)
+0061.608 (0) Googledrive chunked upload: 79.2 % uploaded (16777216)
+0064.797 (0) Googledrive chunked upload: 84.2 % uploaded (17825792)
+0065.907 (0) Googledrive chunked upload: 89.2 % uploaded (18874368)
+0068.801 (0) Googledrive chunked upload: 94.1 % uploaded (19922944)
+0071.464 (0) Googledrive chunked upload: 99.1 % uploaded (20971520)
+0073.256 (0) Googledrive chunked upload: 100 % uploaded (20971520)
+0073.272 (0) Google Drive: OK: Archive backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip uploaded in 50.24 seconds
+0073.277 (0) Recording as successfully uploaded: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip
+0073.293 (0) Deleting local file: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-plugins.zip: OK
+0073.764 (0) Google Drive: quota usage: used=4231.1 MB, total=15360 MB, available=11128.9 MB
+0073.770 (0) Google Drive: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0076.821 (0) Googledrive chunked upload: 19.9 % uploaded (1048576)
+0080.564 (0) Googledrive chunked upload: 39.8 % uploaded (2097152)
+0082.997 (0) Googledrive chunked upload: 59.7 % uploaded (3145728)
+0083.967 (0) Googledrive chunked upload: 79.5 % uploaded (4194304)
+0085.251 (0) Googledrive chunked upload: 99.4 % uploaded (5242880)
+0086.455 (0) Googledrive chunked upload: 100 % uploaded (5242880)
+0086.472 (0) Google Drive: OK: Archive backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip uploaded in 12.7 seconds
+0086.477 (0) Recording as successfully uploaded: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip
+0086.494 (0) Deleting local file: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-themes.zip: OK
+0087.035 (0) Google Drive: quota usage: used=4194 MB, total=15360 MB, available=11166 MB
+0087.043 (0) Google Drive: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-uploads.zip: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0091.300 (0) Googledrive chunked upload: 6.1 % uploaded (1048576)
+0093.301 (0) Googledrive chunked upload: 12.3 % uploaded (2097152)
+0096.068 (0) Googledrive chunked upload: 18.4 % uploaded (3145728)
+0100.105 (0) Googledrive chunked upload: 24.6 % uploaded (4194304)
+0104.082 (0) Googledrive chunked upload: 30.7 % uploaded (5242880)
+0108.192 (0) Googledrive chunked upload: 36.9 % uploaded (6291456)
+0112.379 (0) Googledrive chunked upload: 43 % uploaded (7340032)
+0123.538 (0) Googledrive chunked upload: 49.2 % uploaded (8388608)
+0128.444 (0) Googledrive chunked upload: 55.3 % uploaded (9437184)
+0132.856 (0) Googledrive chunked upload: 61.5 % uploaded (10485760)
+0137.708 (0) Googledrive chunked upload: 67.6 % uploaded (11534336)
+0143.806 (0) Googledrive chunked upload: 73.7 % uploaded (12582912)
+0148.770 (0) Googledrive chunked upload: 79.9 % uploaded (13631488)
+0152.221 (0) Googledrive chunked upload: 86 % uploaded (14680064)
+0155.126 (0) Googledrive chunked upload: 92.2 % uploaded (15728640)
+0159.126 (0) Googledrive chunked upload: 98.3 % uploaded (16777216)
+0161.138 (0) Googledrive chunked upload: 100 % uploaded (16777216)
+0161.162 (0) Google Drive: OK: Archive backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-uploads.zip uploaded in 74.11 seconds
+0161.181 (0) Recording as successfully uploaded: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-uploads.zip
+0161.201 (0) Deleting local file: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-uploads.zip: OK
+0161.783 (0) Google Drive: quota usage: used=4210.3 MB, total=15360 MB, available=11149.7 MB
+0161.788 (0) Google Drive: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-others.zip: Attempting to upload to Google Drive (into folder id: 1ZLcrpGsZVptLiPPB4n6UN77sOlwI7bHB)
+0165.379 (0) Googledrive chunked upload: 100 % uploaded
+0165.397 (0) Google Drive: OK: Archive backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-others.zip uploaded in 3.6 seconds
+0165.404 (0) Recording as successfully uploaded: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-others.zip
+0165.420 (0) Deleting local file: backup_2021-07-23-0007_Bt_ng_sn_Hi_Phng_b7fbf2d11bda-others.zip: OK
+0165.437 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0165.448 (0) Number of backup sets in history: 4; groups (db): 1
+0165.453 (0) Examining (for databases) backup set with group_id=0, nonce=9189156795b3, datestamp=1626973733 (Jul 22 2021 17:08:53)
+0165.457 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0165.463 (0) Examining (for databases) backup set with group_id=0, nonce=b7fbf2d11bda, datestamp=1626973673 (Jul 22 2021 17:07:53)
+0165.463 (0) Examining (for databases) backup set with group_id=0, nonce=6479ca49c6df, datestamp=1626367346 (Jul 15 2021 16:42:26)
+0165.463 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0165.463 (0) Examining (for databases) backup set with group_id=0, nonce=fecca0734fa5, datestamp=1625765094 (Jul 08 2021 17:24:54)
+0165.463 (0) Number of backup sets in history: 4; groups (files): 1
+0165.469 (0) Examining (for files) backup set with nonce=9189156795b3, datestamp=1626973733 (Jul 22 2021 17:08:53)
+0165.469 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0165.476 (0) Examining (for files) backup set with nonce=b7fbf2d11bda, datestamp=1626973673 (Jul 22 2021 17:07:53)
+0165.476 (0) This backup set is the backup set just made, so will not be deleted.
+0165.480 (0) This backup set is the backup set just made, so will not be deleted.
+0165.480 (0) This backup set is the backup set just made, so will not be deleted.
+0165.480 (0) This backup set is the backup set just made, so will not be deleted.
+0165.480 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0165.492 (0) Examining (for files) backup set with nonce=6479ca49c6df, datestamp=1626367346 (Jul 15 2021 16:42:26)
+0165.492 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0165.502 (0) Examining (for files) backup set with nonce=fecca0734fa5, datestamp=1625765094 (Jul 08 2021 17:24:54)
+0165.502 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0165.507 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0165.520 (0) Resume backup (b7fbf2d11bda, 0): finish run
+0165.534 (0) Decremented the semaphore (f) by 1
+0165.543 (0) Semaphore (f) unlocked
+0165.546 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0165.567 (0) No email will/can be sent - the user has not configured an email address.
+0165.571 (0) The backup apparently succeeded and is now complete

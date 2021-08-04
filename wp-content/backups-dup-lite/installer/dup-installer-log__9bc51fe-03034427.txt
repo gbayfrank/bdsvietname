@@ -1,0 +1,495 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:31:43
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.15                                |7.2.22
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2020-07-03 03:44:27
+WP VERSION__________: 5.4.2
+DUP VERSION_________: 1.3.36
+DB__________________: 10.3.22
+DB TABLES___________: 29
+DB ROWS_____________: 8,520
+DB FILE SIZE________: 3.91MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.22 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://batdongsanbinhphat.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/batdongsan/domains/batdongsanbinhphat.com/public_html/20200703_batdongsan09_[HASH]_20200703034427_archive.zip"
+SIZE________________: 47.38MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 04:31:50 - RUNTIME: 7.3267 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:33:25
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.18 -- Build Server: 10.3.22
+FILE SIZE:	dup-database__[HASH].sql (1.67MB)
+TIMEOUT:	5000
+MAXPACK:	524288000
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/batdongsan/domains/batdongsanbinhphat.com/public_html/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [10.1.18] is less than the build version [10.3.22].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	29
+RENAMED TABLES:	0
+QUERIES RAN:	259
+
+hrm_commentmeta: (0)
+hrm_comments: (0)
+hrm_duplicator_packages: (0)
+hrm_links: (0)
+hrm_mb_relationships: (0)
+hrm_nf3_action_meta: (171)
+hrm_nf3_actions: (11)
+hrm_nf3_chunks: (0)
+hrm_nf3_field_meta: (1620)
+hrm_nf3_fields: (41)
+hrm_nf3_form_meta: (161)
+hrm_nf3_forms: (5)
+hrm_nf3_object_meta: (0)
+hrm_nf3_objects: (0)
+hrm_nf3_relationships: (0)
+hrm_nf3_upgrades: (0)
+hrm_options: (348)
+hrm_postmeta: (1771)
+hrm_posts: (392)
+hrm_social_users: (0)
+hrm_term_relationships: (174)
+hrm_term_taxonomy: (1573)
+hrm_termmeta: (0)
+hrm_terms: (2231)
+hrm_usermeta: (90)
+hrm_users: (1)
+hrm_wpfm_backup: (0)
+hrm_yoast_seo_links: (0)
+hrm_yoast_seo_meta: (0)
+Removed '27' cache/transient rows
+
+INSERT DATA RUNTIME: 0.9609 sec.
+STEP-2 COMPLETE @ 04:33:26 - RUNTIME: 0.9790 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:33:31
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Bất Động Sản 09 - W2s Team"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/web/domains/bds.webtocdo.vn/public_html"
+path_new______________: "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+siteurl_______________: "http://batdongsanbinhphat.com"
+url_old_______________: "https://bds.webtocdo.vn"
+url_new_______________: "http://batdongsanbinhphat.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "hrm_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_comments"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_mb_relationships"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_nf3_action_meta"_____________________________[ROWS:   171][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_nf3_actions"_________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_nf3_chunks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_nf3_field_meta"______________________________[ROWS:  1620][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_nf3_fields"__________________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_nf3_form_meta"_______________________________[ROWS:   161][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_nf3_forms"___________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_nf3_object_meta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_nf3_objects"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_nf3_relationships"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_nf3_upgrades"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_options"_____________________________________[ROWS:   348][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_postmeta"____________________________________[ROWS:  1771][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_posts"_______________________________________[ROWS:   392][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_social_users"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_term_relationships"__________________________[ROWS:   174][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_term_taxonomy"_______________________________[ROWS:  1573][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_termmeta"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_terms"_______________________________________[ROWS:  2231][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_usermeta"____________________________________[ROWS:    90][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_users"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/web/domains/bds.webtocdo.vn/public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  2:"\/home\/web\/domains\/bds.webtocdo.vn\/public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  3:"%2Fhome%2Fweb%2Fdomains%2Fbds.webtocdo.vn%2Fpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  4:"\home\web\domains\bds.webtocdo.vn\public_html" ===> "/home/batdongsan/domains/batdongsanbinhphat.com/public_html"
+	SEARCH  5:"\\home\\web\\domains\\bds.webtocdo.vn\\public_html" => "\/home\/batdongsan\/domains\/batdongsanbinhphat.com\/public_html"
+	SEARCH  6:"%5Chome%5Cweb%5Cdomains%5Cbds.webtocdo.vn%5Cpublic_html" => "%2Fhome%2Fbatdongsan%2Fdomains%2Fbatdongsanbinhphat.com%2Fpublic_html"
+	SEARCH  7:"//bds.webtocdo.vn" ===============================> "//batdongsanbinhphat.com"
+	SEARCH  8:"\/\/bds.webtocdo.vn" =============================> "\/\/batdongsanbinhphat.com"
+	SEARCH  9:"%2F%2Fbds.webtocdo.vn" ===========================> "%2F%2Fbatdongsanbinhphat.com"
+	SEARCH 10:"https://batdongsanbinhphat.com" ==================> "http://batdongsanbinhphat.com"
+	SEARCH 11:"https:\/\/batdongsanbinhphat.com" ================> "http:\/\/batdongsanbinhphat.com"
+	SEARCH 12:"https%3A%2F%2Fbatdongsanbinhphat.com" ============> "http%3A%2F%2Fbatdongsanbinhphat.com"
+
+EVALUATE TABLE: "hrm_wpfm_backup"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_yoast_seo_links"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hrm_yoast_seo_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:29 	|	 Rows:8589 	|	 Cells:45321 
+UPDATED:	Tables:1 	|	 Rows:5 	|	 Cells:5 
+ERRORS:		0 
+RUNTIME:	0.104600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""batdongsan_bphat""
+	UPDATE DB_USER ""batdongsan_bphat""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+- PASS: Existing Microsoft IIS 'web.config.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 04:33:31 - RUNTIME: 0.1761 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
