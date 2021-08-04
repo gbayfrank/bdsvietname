@@ -5,7 +5,6 @@
 if(!is_user_logged_in()) {
 	wp_redirect( home_url('/dang-nhap'));
 }
-nocache_headers(); // don't cache anything
     get_header(); 
 ?>
 
@@ -538,7 +537,7 @@ nocache_headers(); // don't cache anything
                 </div>
             </div><!-- .realty-contact -->
 
-                <div class="realty-content clearfix">
+                <div class="realty-content">
                     <div class="row-item">
                         <div class="h2">
                             <span><?php _e( 'Mô tả chi tiết','hrm' ); ?></span>
@@ -665,7 +664,7 @@ nocache_headers(); // don't cache anything
 
         const readAndPreview = (file) => {
             // Make sure `file.name` matches our extensions criteria
-            if (!/\.(jpe?g|png|gif|jfif)$/i.test(file.name)) {
+            if (!/.(jpe?g|png|gif|jfif)$/i.test(file.name)) {
                 return alert("Bạn không được phép upload tập tin " + file.name + "!");
             } // else...
             const imgMainBds    = document.getElementById('img-main-bds');
@@ -700,7 +699,7 @@ nocache_headers(); // don't cache anything
 
         uploadImageSDSH = (obj, id) => {
             let file = obj.files[0];
-            if (!/\.(jpe?g|png|gif|jfif)$/i.test(file.name)) {
+            if (!/.(jpe?g|png|gif|jfif)$/i.test(file.name)) {
                 return alert("Bạn không được phép upload tập tin " + file.name + "!");
             }
             formData.append('sdshImage' + id, file);
@@ -833,6 +832,7 @@ nocache_headers(); // don't cache anything
 
             postData('<?php echo admin_url('admin-ajax.php'); ?>', formData, true)
             .then(data => {
+				console.log(data);
                 if(data.sucess == true) {
                     alert('Đăng tin thành công');
                     window.location.href = data.url;

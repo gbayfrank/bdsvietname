@@ -29,16 +29,14 @@
                 $prince_realty = rwmb_meta('price-realty', 'type=number');
                 $par_value = rwmb_meta('par_value');
                 $key = '';
-//------------------------------antopho chinh sua begin--------------------------------------------------------------
-                if ( ($par_value=='Triệu/m2') && $prince_realty ) {
-                    $key = 'Triệu/m<sup>2</sup>';
-                    echo number_format($prince_realty,0,",",".") .' '.$key;
-                } elseif ($prince_realty) {
-                    echo number_format($prince_realty,0,",",".") .' '.$par_value;
-                } elseif (!$prince_realty) {
+                if (($par_value == 'Triệu/m2') && $prince_realty) {
+								$key = __('Triệu/m<sup>2</sup>', 'hrm');
+								echo number_format($prince_realty, 0, ",", ".") . ' ' . $key;
+							} elseif ($prince_realty) {
+								echo number_format($prince_realty, 0, ",", ".") . ' ' . $par_value;
+							} elseif (!$prince_realty) {
                     echo 'Thỏa thuận';
                 }
-//------------------------------antopho chinh sua end--------------------------------------------------------------
                 ?>
             </div>
             <div class="area">

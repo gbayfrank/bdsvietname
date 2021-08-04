@@ -46,7 +46,8 @@ get_header(); ?>
                     </thead>
                     <tbody>
                     <?php
-                        $args = array(
+                       // Trước khi Quang-antopho sửa 'post_status' => array('pending','draft'),
+						$args = array(
                             'posts_per_page' => -1,
                             'post_type' => 'realty',
                             'post_status' => array('pending','draft'),
@@ -72,9 +73,10 @@ get_header(); ?>
                           /* nothing to do here*/
                         } else {
                             /* The Query*/
+							//Trước khi Quang-antopho sửa  'post_status' => array('pending','draft'),
                             $loopargs = array(
                                 'post_type' => 'realty',
-                                'post_status' => array('pending','draft'),
+                               'post_status' => array('pending','draft'),
                                 'author' => $author_id,
                                 'offset'         => $start,
                                 'posts_per_page' => $display,
@@ -115,10 +117,10 @@ get_header(); ?>
                                         <td class="text-center">
                                           <a href="<?php echo home_url( 'sua-tin' ); ?>?post=<?php the_id(); ?>">
                                             <img src="<?php echo THEME_URL .'/images/pencil.png' ;?>" title="" alt="" border="0" />
-                                          </a>&nbsp;&nbsp;
+                                          </a>  
                                           <a onclick="return confirm_before_delete();" href="<?php echo get_delete_post_link( get_the_ID() ); ?>" title="<?php _e('Delete Ad', 'hrm'); ?>">
                                             <img src="<?php echo THEME_URL .'/images/close.png' ;?>" title="<?php _e('Xóa', 'hrm'); ?>" alt="<?php _e('Xóa', 'hrm'); ?>" border="0" />
-                                         </a>&nbsp;&nbsp;
+                                         </a>  
                                         </td>
                                     </tr>
                                 <?php

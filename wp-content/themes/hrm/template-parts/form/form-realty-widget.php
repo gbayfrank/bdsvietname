@@ -31,7 +31,7 @@
 				</li>
 				<li>
 					<select name="quick-city" id="city" class="quick-city-edit">
-						<option value="">--Chọn tỉnh/ Thành--</option>
+						<option value="">- Chọn tỉnh / thành phố -</option>
 						<?php
 						$tc_id = $_GET['quick-city'];
 						$td_id = $_GET['quick-district'];

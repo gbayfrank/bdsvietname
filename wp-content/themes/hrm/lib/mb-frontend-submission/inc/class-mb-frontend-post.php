@@ -147,7 +147,7 @@ class MB_Frontend_Post implements MB_Frontend_Object_Model {
 			'type'             => 'image',
 			'name'             => esc_html__( 'Thumbnail', 'rwmb-frontend-submission' ),
 			'id'               => '_thumbnail_id',
-			'max_file_uploads' => 5, //antopho sua img
+			'max_file_uploads' => 1,
 			'storage'          => rwmb_get_storage( 'post' ),
 		);
 		$field = RWMB_Field::call( 'normalize', $field );

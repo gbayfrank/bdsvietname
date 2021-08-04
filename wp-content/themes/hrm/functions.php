@@ -209,12 +209,12 @@ function create_shortcode_terminal($vip) {
 	$prince_realty = rwmb_meta('price-realty', 'type=number');
 	$par_value = rwmb_meta('par_value');
 	$key = '';
-	if ( ($par_value=='Triệu/m2') && $prince_realty ) {
-		$key = __('Triệu/m<sup>2</sup>','hrm');
-		echo number_format($prince_realty,0,",",".") .' '.$key;
-	} elseif ($prince_realty) {
-		echo number_format($prince_realty,0,",",".") .' '.$par_value;
-	} elseif (!$prince_realty) {
+	if (($par_value == 'Triệu/m2') && $prince_realty) {
+		$key = __('Triệu/m<sup>2</sup>', 'hrm');
+		echo number_format($prince_realty, 0, ",", ".") . ' ' . $key;
+		} elseif ($prince_realty) {
+		echo number_format($prince_realty, 0, ",", ".") . ' ' . $par_value;
+		} elseif (!$prince_realty) {
 		echo __('Thỏa thuận','hrm');
 	}
 				?>
@@ -344,12 +344,12 @@ function remove_admin_bar() {
 		show_admin_bar(false);
 	}
 }
-
 // dang tin
 add_action( 'wp_ajax_dang_tin', 'dang_tin_ajax' );
 add_action( 'wp_ajax_nopriv_dang_tin', 'dang_tin_ajax' );
 function dang_tin_ajax() {
 	global $wpdb, $hrm_options;
+	nocache_headers(); // don't cache anything
 	$current_user = wp_get_current_user(); // grabs the user info and puts into vars
 	$user_id = get_current_user_id();
 	// needed for image uploading and deleting to work
@@ -380,7 +380,7 @@ function dang_tin_ajax() {
 			if(is_super_admin() ){
 				$postStatus = 'publish';
 			}elseif(!is_super_admin()){
-				$postStatus = 'pending';
+				$postStatus = 'publish';
 			}            
 			$post_information = array(
 				'ID'             => $current_post,
@@ -405,7 +405,7 @@ function dang_tin_ajax() {
 				update_post_meta($post_id, 'street_ko_dau', wp_kses(stripUnicode($_POST['street']), $allowed));
 				update_post_meta($post_id, 'label', wp_kses($_POST['label_price'], $allowed));
 				update_post_meta($post_id, 'price-realty', wp_kses($_POST['post_price'], $allowed));
-				update_post_meta($post_id, 'par_value', wp_kses($_POST['par_value'], $allowed)); //antopho đang sưa
+				update_post_meta($post_id, 'par_value', wp_kses($_POST['par_value'], $allowed)); //update mệnh giá vào data base __Trungctr-antopho
 				update_post_meta($post_id, 'label_after', wp_kses($_POST['label_after'], $allowed));
 				wp_set_object_terms( $post_id, $_POST['khoang-gia'], 'khoang-gia' );
 				update_post_meta($post_id, 'p_rent', wp_kses($_POST['p_rent'], $allowed));
@@ -588,4 +588,85 @@ function uploadImage($image_data, $post_id, $add_post_meta = 'gallery') {
 
     return true;
 }
+/*------------------------------------------------------antopho edit----------------------------------------------------------*/
+		// thêm hook cho  custom feild trungctr-antopho
+		add_action('show_user_profile', 'uid_fields'); // hiện các trường trong phần quản lý profile của mình __trungctr-antopho
+		add_action('edit_user_profile', 'uid_fields'); // hiện các trường trong phần quản lý profile củả tất cả user __trungctr-antopho
+		add_action('personal_options_update', 'save_uid_fields'); //update các trường profile của mình __trungctr-antopho
+		add_action('edit_user_profile_update', 'save_uid_fields'); //update các trường profile của người dùng __trungctr-antopho
+
+		// hàm cập nhật cho các custom feild __trungctr-antopho
+		function save_uid_fields($user_id)
+		{
+
+			if (!current_user_can('edit_user', $user_id))
+				return false;
+			update_usermeta($user_id, 'cmnd', $_POST['cmnd']); // cập nhật cho custom feild số chứng minh thư __trungctr-antopho
+			update_usermeta($user_id, 'phoneno', $_POST['phoneno']); // cập nhật cho custom feild số điện thoại __trungctr-antopho
+			update_usermeta($user_id, 'fullname', $_POST['fullname']); // cập nhật cho custom feild tên đầy đủ __trungctr-antopho
+			update_usermeta($user_id, 'adres', $_POST['adres']); // cập nhật cho custom feild địa chỉ __trungctr-antopho
+			update_usermeta($user_id, 'bday', $_POST['bday']); // cập nhật cho custom feild ngày sinh __trungctr-antopho
+		}
+
+		function ctr_get_data_sql($doiso)
+		{
+			global $wpdb; // Biến toàn cục lớp $wpdb được sử dụng trong khi tương tác với databse wordpress
+			$get = $doiso;
+			$table = $wpdb->prefix . 'usermeta'; // Khai báo bảng cần lấy __trungctr-antopho
+			$sql = "SELECT * FROM {$table} WHERE `meta_value`= %d"; // câu lệnh mysql query __trungctr-antopho
+			$data = $wpdb->get_results($wpdb->prepare($sql, $get), ARRAY_A);
+			return $data;
+		}
+		// hàm hiển thị cho các custom feild __trungctr-antopho
+		function uid_fields($user)
+		{ ?>
+
+	<h3>Các thông tin nhận diện người dùng</h3>
+	<table class="form-table">
+		<tbody>
+			<tr>
+				<th><label for="fullname">fullname</label></th>
+				<td>
+					<input type="text" name="fullname" id="fullname" value="<?php echo esc_attr(get_the_author_meta('fullname', $user->ID)); ?>" class="regular-text" /><br />
+					<span class="description">Nhập tên đầy đủ.</span>
+				</td>
+			</tr>
+
+			<tr>
+				<th><label for="phoneno">Số điện thoại</label></th>
+				<td>
+					<input type="integer" name="phoneno" id="phoneno" value="<?php echo esc_attr(get_the_author_meta('phoneno', $user->ID)); ?>" class="regular-text" /><br />
+					<span class="description">Nhập số điện thoại.</span>
+				</td>
+			</tr>
+
+			<tr>
+				<th><label for="cmnd">Số CMND/CCCD</label></th>
+				<td>
+					<input type="integer" name="cmnd" id="cmnd" value="<?php echo esc_attr(get_the_author_meta('cmnd', $user->ID)); ?>" class="regular-text" /><br />
+					<span class="description">Nhập số CMND/CCCD.</span>
+				</td>
+			</tr>
+
+			<tr>
+				<th><label for="bday">Ngày sinh</label></th>
+				<td>
+					<input type="date" name="bday" id="bday" value="<?php echo esc_attr(get_the_author_meta('bday', $user->ID)); ?>" class="regular-text" /><br />
+					<span class="description">Nhập ngày sinh.</span>
+				</td>
+			</tr>
+
+			<tr>
+				<th><label for="adres">Địa chỉ:</label></th>
+				<td>
+					<input type="text" name="adres" id="adres" value="<?php echo esc_attr(get_the_author_meta('adres', $user->ID)); ?>" class="regular-text" /><br />
+					<span class="description">Nhập địa chỉ.</span>
+				</td>
+			</tr>
+
+		<tbody>
+	</table>
+
+<?php }
+
 ?>

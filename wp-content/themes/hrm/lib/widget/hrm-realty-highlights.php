@@ -97,12 +97,12 @@ class Hrm_Widget_Realty_Highlights extends WP_Widget
                                     $prince_realty = rwmb_meta('price-realty', 'type=number');
                                     $par_value = rwmb_meta('par_value');
                                     $key = '';
-                                    if ( ($par_value=='Triệu/m2') && $prince_realty ) {
-                                        $key = __('Triệu/m<sup>2</sup>','hrm');
-                                        echo number_format($prince_realty,0,",",".") .' '.$key;
-                                    } elseif ($prince_realty) {
-                                        echo number_format($prince_realty,0,",",".") .' '.$par_value;
-                                    } elseif (!$prince_realty) {
+                                    if (($par_value == 'Triệu/m2') && $prince_realty) {
+								$key = __('Triệu/m<sup>2</sup>', 'hrm');
+								echo number_format($prince_realty, 0, ",", ".") . ' ' . $key;
+							} elseif ($prince_realty) {
+								echo number_format($prince_realty, 0, ",", ".") . ' ' . $par_value;
+							} elseif (!$prince_realty) {
                                         echo __('Thỏa thuận','hrm');
                                     }
                                 ?>

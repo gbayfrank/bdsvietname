@@ -27,7 +27,8 @@ $query = new WP_Query(
 
     ) 
 );
-if ($query->have_posts()) { while ($query->have_posts()) { $query->the_post();
+if ($query->have_posts()) { 
+    while ($query->have_posts()) { $query->the_post();
     $current_post = $_GET['post'];
     $title        = get_the_title();
     $content      = get_the_content();
@@ -155,7 +156,8 @@ if ($query->have_posts()) { while ($query->have_posts()) { $query->the_post();
             if(is_super_admin() ){
                 $postStatus = 'publish';
             }elseif(!is_super_admin()){
-                $postStatus = 'pending';
+				//trước khi Quang-antopho sửa  $postStatus = 'pending';
+                $postStatus = 'publish';
             }            
             $post_information = array(
                 'ID' => $current_post,

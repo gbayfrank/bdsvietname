@@ -98,9 +98,9 @@ class Hrm_Show_BDS_Feature extends WP_Widget
                                     $key = '';
                                     if ( ($par_value=='Triệu/m2') && $prince_realty ) {
                                         $key = __('Triệu/m<sup>2</sup>','hrm');
-                                        echo number_format($prince_realty,0,",",".") .' '.$key;
+                                        echo $prince_realty.' '.$key;
                                     } elseif ($prince_realty) {
-                                        echo number_format($prince_realty,0,",",".") .' '.$par_value;
+                                        echo $prince_realty.' '.$par_value;
                                     } elseif (!$prince_realty) {
                                         echo __('Thỏa thuận','hrm');
                                     }

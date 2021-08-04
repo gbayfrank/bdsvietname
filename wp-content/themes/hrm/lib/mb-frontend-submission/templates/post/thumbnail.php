@@ -15,7 +15,7 @@ $field = apply_filters( 'rwmb_frontend_post_thumbnail', array(
 	'type'             => 'image',
 	'name'             => esc_html__( 'Thumbnail', 'rwmb-frontend-submission' ),
 	'id'               => '_thumbnail_id',
-	'max_file_uploads' => 5, //antopho sua
+	'max_file_uploads' => 1,
 	'std'              => $default,
 ) );
 $field = RWMB_Field::call( 'normalize', $field );

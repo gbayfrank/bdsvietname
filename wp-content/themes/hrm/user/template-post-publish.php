@@ -88,7 +88,8 @@ get_header(); ?>
                                       $poststatus .= ' ' . __('duyệt','hrm') . '<br/><p class="small">(' . get_the_date('Y-m-d H:i:s') . ')</p>';
                                       $poststatus .= '</h4>';
                                   // it's a pending ad which gives us several possibilities
-                                  } elseif ($post->post_status == 'pending') {
+                                  // Trước đó là ($post->post_status == 'pending') sửa by Quang-antopho
+                                  } elseif ($post->post_status == 'publish') {
                                       $poststatus = '<h4 class="ad-status">';
                                       $poststatus .= __('Chờ phê duyệt','hrm');
                                       $poststatus .= '</h4>';
@@ -121,10 +122,10 @@ get_header(); ?>
                                     <td class="text-center">
                                         <a href="<?php echo home_url( 'sua-tin' ); ?>?post=<?php the_id(); ?>">
                                             <img src="<?php echo THEME_URL .'/images/pencil.png' ;?>" title="" alt="" border="0" />
-                                        </a>&nbsp;&nbsp;
+                                        </a>  
                                         <a onclick="return confirm_before_delete();" href="<?php echo get_delete_post_link( get_the_ID() ); ?>" title="<?php _e('Delete Ad', 'hrm'); ?>">
                                             <img src="<?php echo THEME_URL .'/images/close.png' ;?>" title="<?php _e('Xóa', 'hrm'); ?>" alt="<?php _e('Xóa', 'hrm'); ?>" border="0" />
-                                       </a>&nbsp;&nbsp;
+                                       </a>  
                                     </td>
                                 </tr>
                             <?php

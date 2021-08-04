@@ -30,7 +30,7 @@
                 </li>
                 <li>
                     <select name="quick-city" class="quick-cityp" id="quick-city-project">
-                        <option value=""><?php _e('--Chọn tỉnh/ Thành--','hrm'); ?></option>   
+                        <option value=""><?php _e('- Chọn tỉnh / thành phố -','hrm'); ?></option>   
                     </select>
                 </li>
 

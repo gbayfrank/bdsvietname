@@ -158,18 +158,18 @@ function hrm_register_meta_boxes( $meta_boxes )
 			),
 			
 
-			array(
-			'id'            => 'par_value',
-			'name'          => __( 'Mệnh giá', 'hrm' ),
-			'type'          => 'select',
-			'options' 		=> array(
-			 		'Triệu'    => __( 'Triệu', 'hrm' ),
-			 		'Triệu/m2' => __( 'Triệu/m2', 'hrm' ),
-			 		'Tỷ'    => __( 'Tỷ', 'hrm' ),
-			 		'Thỏa thuận'      => __( 'Thỏa thuận', 'hrm' ),
-			 	),
-			 	'tab'  => 'realty-info',
-			 ),
+			// array(
+			// 	'id'            => 'par_value',
+			// 	'name'          => __( 'Mệnh giá', 'hrm' ),
+			// 	'type'          => 'select',
+			// 	'options' 		=> array(
+			// 		'Triệu'    => __( 'Triệu', 'hrm' ),
+			// 		'Triệu/m2' => __( 'Triệu/m2', 'hrm' ),
+			// 		'Tỷ'    => __( 'Tỷ', 'hrm' ),
+			// 		'Thỏa thuận'      => __( 'Thỏa thuận', 'hrm' ),
+			// 	),
+			// 	'tab'  => 'realty-info',
+			// ),
 			
 			array (
 				'id' => 'divider_6',
